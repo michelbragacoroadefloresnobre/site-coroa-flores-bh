@@ -33,6 +33,7 @@ export function Features() {
         </svg>
       </div>
 
+      <h2 className="sr-only">Nossos Diferenciais</h2>
       <div className="relative mx-auto grid max-w-[1100px] gap-5 sm:grid-cols-3">
         {items.map((item) => (
           <div

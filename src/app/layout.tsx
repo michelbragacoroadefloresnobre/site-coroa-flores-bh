@@ -22,6 +22,33 @@ export const metadata: Metadata = {
   },
   description:
     "Entrega de coroa de flores em São Paulo e região metropolitana. Atendimento 24h, entrega em até 1 hora com foto antes da entrega.",
+  alternates: {
+    canonical: "https://coroadefloresnobre.com.br",
+  },
+  openGraph: {
+    title: "Coroa de Flores Nobre | Entrega em São Paulo e Região",
+    description:
+      "Entrega de coroa de flores em São Paulo e região metropolitana. Atendimento 24h, entrega em até 1 hora com foto antes da entrega.",
+    url: "https://coroadefloresnobre.com.br",
+    siteName: "Coroa de Flores Nobre",
+    locale: "pt_BR",
+    type: "website",
+    images: [
+      {
+        url: "https://coroadefloresnobre.com.br/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Coroa de Flores Nobre — Entrega em São Paulo e Região",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Coroa de Flores Nobre | Entrega em São Paulo e Região",
+    description:
+      "Entrega de coroa de flores em São Paulo e região metropolitana. Atendimento 24h, entrega em até 1 hora com foto antes da entrega.",
+    images: ["https://coroadefloresnobre.com.br/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({

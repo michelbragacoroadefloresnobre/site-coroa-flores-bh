@@ -1,6 +1,18 @@
 import type { Location } from "@/types/location"
 import contact from "@/data/contact.json"
 
+type FaqItem = {
+  question: string
+  answer: string
+}
+
+type ProductItem = {
+  id: string
+  name: string
+  image: string
+  sizes: Record<string, { price: number; height: number; width: number } | undefined>
+}
+
 const BASE_URL = "https://coroadefloresnobre.com.br"
 
 export function buildLocalBusinessSchema(location: Location) {
@@ -80,5 +92,45 @@ export function buildServiceSchema(location: Location) {
       name: location.city,
     },
     description: `Entrega de coroa de flores em ${location.name}, ${location.city} em até 1 hora.`,
+  }
+}
+
+export function buildFaqSchema(items: ReadonlyArray<FaqItem>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  }
+}
+
+export function buildProductListSchema(products: ReadonlyArray<ProductItem>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: products
+      .filter((product) => product.sizes.default !== undefined)
+      .map((product, index) => ({
+        "@type": "ListItem" as const,
+        position: index + 1,
+        item: {
+          "@type": "Product" as const,
+          name: product.name,
+          image: product.image,
+          url: `${BASE_URL}/catalogo`,
+          offers: {
+            "@type": "Offer" as const,
+            price: product.sizes.default!.price,
+            priceCurrency: "BRL",
+            availability: "https://schema.org/InStock",
+          },
+        },
+      })),
   }
 }
