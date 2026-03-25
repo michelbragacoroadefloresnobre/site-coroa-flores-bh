@@ -1,9 +1,8 @@
 import { MessageCircle } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, não encontrei o que procuro no catálogo. Podem me ajudar?"
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.catalogHelp);
 
 export function CatalogCta() {
   return (

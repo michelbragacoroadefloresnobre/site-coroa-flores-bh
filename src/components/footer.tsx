@@ -1,11 +1,10 @@
 import Link from "next/link";
 import { MessageCircle, Lock } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 import contact from "@/data/contact.json";
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, preciso de uma coroa de flores. Podem me ajudar?"
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
 const navLinks = [
   { label: "Início", href: "/" },

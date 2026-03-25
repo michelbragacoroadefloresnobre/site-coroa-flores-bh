@@ -2,10 +2,9 @@ import { MessageCircle, Star, Users } from "lucide-react";
 import { SectionOrnament } from "@/components/section-ornament";
 import testimonials from "@/data/testimonials.json";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, preciso de uma coroa de flores. Podem me ajudar?"
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
 function Stars() {
   return (

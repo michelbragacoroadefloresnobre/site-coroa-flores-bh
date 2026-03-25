@@ -1,9 +1,8 @@
 import { MessageCircle } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, gostaria de saber se vocês entregam na minha cidade."
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.deliveryInquiry);
 
 export function LocationsCta() {
   return (

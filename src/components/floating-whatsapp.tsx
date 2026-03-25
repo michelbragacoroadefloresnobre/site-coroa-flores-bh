@@ -3,10 +3,9 @@
 import { useState, useEffect } from "react";
 import { X } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, preciso de uma coroa de flores. Podem me ajudar?"
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
 export function FloatingWhatsapp() {
   const [visible, setVisible] = useState(false);

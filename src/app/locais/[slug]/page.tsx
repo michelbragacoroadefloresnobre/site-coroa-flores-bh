@@ -44,12 +44,12 @@ export async function generateMetadata({
     title,
     description,
     alternates: {
-      canonical: `https://coroadefloresnobre.com.br/locais/${location.slug}`,
+      canonical: `/locais/${location.slug}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://coroadefloresnobre.com.br/locais/${location.slug}`,
+      url: `/locais/${location.slug}`,
       siteName: "Coroa de Flores Nobre",
       locale: "pt_BR",
       type: "website",

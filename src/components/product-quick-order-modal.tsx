@@ -5,6 +5,7 @@ import { createPortal } from "react-dom";
 import Image from "next/image";
 import { MessageCircle, X } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { quickOrderMessage } from "@/lib/whatsapp-messages";
 
 type ProductSize = {
   price: number;
@@ -143,32 +144,16 @@ export function ProductQuickOrderModal({
   const handleSubmit = () => {
     if (timeError) return;
 
-    const lines = [
-      "Olá! Gostaria de fazer um pedido urgente:",
-      "",
-      `Produto: ${product.name} - Tamanho ${SIZE_LABELS[size]}`,
-      `Preço: ${formatPrice(currentSize.price)}`,
-    ];
+    const message = quickOrderMessage({
+      productName: product.name,
+      sizeLabel: SIZE_LABELS[size],
+      formattedPrice: formatPrice(currentSize.price),
+      ribbonMessage: ribbonMessage.trim() || undefined,
+      deliveryLocation: deliveryLocation.trim() || undefined,
+      preferredTime: (!timeError && preferredTime.trim()) || undefined,
+      formattedDate: expectedDate ? formatDatePtBr(expectedDate) : undefined,
+    });
 
-    if (ribbonMessage.trim()) {
-      lines.push(`Mensagem da faixa: "${ribbonMessage.trim()}"`);
-    }
-    if (deliveryLocation.trim()) {
-      lines.push(`Local de entrega: ${deliveryLocation.trim()}`);
-    }
-    if (preferredTime.trim() && !timeError) {
-      lines.push(`Horário preferido: ${preferredTime.trim()}`);
-    }
-    if (expectedDate) {
-      lines.push(`Data prevista: ${formatDatePtBr(expectedDate)}`);
-    }
-
-    lines.push("");
-    lines.push(
-      "Preciso desta coroa com urgência. Podem confirmar a entrega?"
-    );
-
-    const message = lines.join("\n");
     window.open(buildWhatsappUrl(message), "_blank");
   };
 

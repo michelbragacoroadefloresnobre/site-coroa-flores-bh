@@ -1,5 +1,6 @@
 import { MessageCircle, Phone, Mail } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 
 function ChannelIcon({ children }: { children: React.ReactNode }) {
   return (
@@ -10,9 +11,7 @@ function ChannelIcon({ children }: { children: React.ReactNode }) {
 }
 
 export function ContactChannels() {
-  const whatsappUrl = buildWhatsappUrl(
-    "Olá! Gostaria de mais informações sobre coroas de flores."
-  );
+  const whatsappUrl = buildWhatsappUrl(whatsappMessages.moreInfo);
 
   return (
     <section className="w-full bg-white py-16 md:py-20">

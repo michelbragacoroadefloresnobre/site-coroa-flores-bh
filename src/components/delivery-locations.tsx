@@ -2,10 +2,9 @@ import Link from "next/link";
 import { MapPin, MessageCircle } from "lucide-react";
 import cities from "@/data/cities.json";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, gostaria de saber se vocês entregam na minha região."
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.deliveryRegionInquiry);
 
 export function DeliveryLocations() {
   return (

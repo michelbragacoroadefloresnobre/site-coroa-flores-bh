@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Entregamos coroas de flores em mais de 175 cemitérios, velórios e crematórios em São Paulo e região metropolitana. Confira todos os locais de entrega.",
   alternates: {
-    canonical: "https://coroadefloresnobre.com.br/locais",
+    canonical: "/locais",
   },
   openGraph: {
     title: "Locais de Entrega | Coroa de Flores Nobre",
     description:
       "Entregamos coroas de flores em mais de 175 cemitérios, velórios e crematórios em São Paulo e região metropolitana.",
-    url: "https://coroadefloresnobre.com.br/locais",
+    url: "/locais",
     siteName: "Coroa de Flores Nobre",
     locale: "pt_BR",
     type: "website",

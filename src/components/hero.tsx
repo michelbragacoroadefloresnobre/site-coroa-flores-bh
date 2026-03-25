@@ -1,10 +1,9 @@
 import Image from "next/image";
 import { MessageCircle, ChevronDown, Clock, MapPin } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, preciso de uma coroa de flores. Podem me ajudar?"
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
 export function Hero() {
   return (
@@ -17,6 +16,7 @@ export function Hero() {
         className="object-cover"
         sizes="100vw"
         priority
+        loading="eager"
       />
 
       {/* Layered gradient overlay */}

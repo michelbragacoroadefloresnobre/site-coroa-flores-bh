@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MessageCircle, Menu, X } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 
 const navLinks = [
   { label: "Início", href: "/" },
@@ -12,9 +13,7 @@ const navLinks = [
   { label: "Locais de Entrega", href: "/locais" },
 ] as const;
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, preciso de uma coroa de flores. Podem me ajudar?"
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
 export function Header() {
   const pathname = usePathname();

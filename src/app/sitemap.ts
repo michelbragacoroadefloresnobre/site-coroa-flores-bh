@@ -1,9 +1,9 @@
 import type { MetadataRoute } from "next"
 import { getAllLocations } from "@/lib/location-helpers"
-
-const BASE_URL = "https://coroadefloresnobre.com.br"
+import { getBaseUrl } from "@/lib/base-url"
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const BASE_URL = getBaseUrl()
   const locations = getAllLocations()
 
   const staticPages: MetadataRoute.Sitemap = [

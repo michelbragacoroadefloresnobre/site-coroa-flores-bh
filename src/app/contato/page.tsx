@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Fale com a Coroa de Flores Nobre pelo WhatsApp ou telefone. Atendimento humano 24 horas, todos os dias, inclusive feriados.",
   alternates: {
-    canonical: "https://coroadefloresnobre.com.br/contato",
+    canonical: "/contato",
   },
   openGraph: {
     title: "Contato | Coroa de Flores Nobre",
     description:
       "Fale com a Coroa de Flores Nobre pelo WhatsApp ou telefone. Atendimento humano 24 horas, todos os dias.",
-    url: "https://coroadefloresnobre.com.br/contato",
+    url: "/contato",
     siteName: "Coroa de Flores Nobre",
     locale: "pt_BR",
     type: "website",

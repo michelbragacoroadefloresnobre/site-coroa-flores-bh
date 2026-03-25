@@ -1,10 +1,9 @@
 import { MessageCircle } from "lucide-react"
 import { buildWhatsappUrl } from "@/lib/whatsapp"
+import { locationDeliveryMessage } from "@/lib/whatsapp-messages"
 
 export function LocationCta({ locationName }: { locationName: string }) {
-  const whatsappUrl = buildWhatsappUrl(
-    `Olá, preciso de uma coroa de flores para entrega em ${locationName}.`
-  )
+  const whatsappUrl = buildWhatsappUrl(locationDeliveryMessage(locationName))
 
   return (
     <section className="px-4 py-16 md:py-20">

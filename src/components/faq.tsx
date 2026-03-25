@@ -9,11 +9,10 @@ import {
 } from "@/components/ui/accordion";
 import faqItems from "@/data/faq.json";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { whatsappMessages } from "@/lib/whatsapp-messages";
 import { SectionOrnament } from "@/components/section-ornament";
 
-const WHATSAPP_URL = buildWhatsappUrl(
-  "Oi, tenho uma dúvida sobre o serviço."
-);
+const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.serviceQuestion);
 
 export function Faq() {
   return (

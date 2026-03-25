@@ -1,5 +1,6 @@
 import type { Location } from "@/types/location"
 import contact from "@/data/contact.json"
+import { getBaseUrl } from "@/lib/base-url"
 
 type FaqItem = {
   question: string
@@ -13,9 +14,8 @@ type ProductItem = {
   sizes: Record<string, { price: number; height: number; width: number } | undefined>
 }
 
-const BASE_URL = "https://coroadefloresnobre.com.br"
-
 export function buildLocalBusinessSchema(location: Location) {
+  const BASE_URL = getBaseUrl()
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -51,6 +51,7 @@ export function buildLocalBusinessSchema(location: Location) {
 }
 
 export function buildBreadcrumbSchema(location: Location) {
+  const BASE_URL = getBaseUrl()
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -111,6 +112,7 @@ export function buildFaqSchema(items: ReadonlyArray<FaqItem>) {
 }
 
 export function buildProductListSchema(products: ReadonlyArray<ProductItem>) {
+  const BASE_URL = getBaseUrl()
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",

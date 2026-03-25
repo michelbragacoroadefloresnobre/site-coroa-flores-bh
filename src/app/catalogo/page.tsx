@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description:
     "Veja nosso catálogo completo de coroas de flores para velório e funeral. Modelos a partir de R$315, com entrega em até 1 hora em São Paulo e região.",
   alternates: {
-    canonical: "https://coroadefloresnobre.com.br/catalogo",
+    canonical: "/catalogo",
   },
   openGraph: {
     title: "Catálogo de Coroas de Flores | Coroa de Flores Nobre",
     description:
       "Veja nosso catálogo completo de coroas de flores para velório e funeral. Modelos a partir de R$315, com entrega em até 1 hora em São Paulo e região.",
-    url: "https://coroadefloresnobre.com.br/catalogo",
+    url: "/catalogo",
     siteName: "Coroa de Flores Nobre",
     locale: "pt_BR",
     type: "website",
