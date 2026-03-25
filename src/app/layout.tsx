@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { FloatingWhatsapp } from "@/components/floating-whatsapp";
@@ -27,7 +28,11 @@ export const metadata: Metadata = {
   description:
     "Entrega de coroa de flores em Belo Horizonte e região metropolitana. Atendimento 24h, entrega em até 1 hora com foto antes da entrega.",
   icons: {
-    icon: "/icon.svg",
+    icon: [
+      { url: "/icon-32.png", type: "image/png", sizes: "32x32" },
+      { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
+    ],
+    apple: { url: "/icon-192.png", type: "image/png", sizes: "192x192" },
   },
   alternates: {
     canonical: "/",
@@ -68,6 +73,7 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <GoogleTagManager gtmId="GTM-KRM7BLFS" />
       <body className="min-h-full flex flex-col">
           <Header />
           {children}

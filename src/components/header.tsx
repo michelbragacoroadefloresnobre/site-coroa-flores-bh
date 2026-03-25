@@ -52,11 +52,11 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <Image
-            src="/logo.svg"
+            src="/logo.png"
             alt="Coroa de Flores Belo Horizonte"
-            width={160}
-            height={40}
-            className="h-10 w-auto"
+            width={200}
+            height={200}
+            className="w-36 h-auto"
             priority
           />
         </Link>
