@@ -5,9 +5,8 @@ import { useState } from "react";
 const categories = [
   { label: "Tradicional", anchor: "tradicional" },
   { label: "Ouro", anchor: "ouro" },
-  { label: "Diamante", anchor: "diamante" },
   { label: "Platina", anchor: "platina" },
-  { label: "Especial", anchor: "especial" },
+  { label: "Diamante", anchor: "diamante" },
 ] as const;
 
 export function CategoryNav() {

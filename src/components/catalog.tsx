@@ -18,8 +18,8 @@ import { SectionOrnament } from "@/components/section-ornament";
 const CATEGORY_ORDER = [
   "tradicionais",
   "ouro",
-  "diamante",
   "platina",
+  "diamante",
   "especiais",
 ] as const;
 
@@ -29,6 +29,17 @@ const CATEGORY_LABELS: Record<string, string> = {
   diamante: "Diamante",
   platina: "Platina",
   especiais: "Especiais",
+};
+
+const CATEGORY_DESCRIPTIONS: Record<string, string> = {
+  tradicionais:
+    "Para você que está procurando coroas de flores para velório com pronta entrega e ótimo custo-benefício, compre Coroas Tradicionais.",
+  ouro:
+    "Mais que um gesto, as Coroas de Flores Ouro representam admiração e reverência. Com flores nobres e montagem sofisticada.",
+  diamante:
+    "As Coroas Diamante foram criadas para quem busca uma homenagem única e marcante. Com design imponente, elas expressam admiração e profundo respeito de forma elegante.",
+  platina:
+    "Com um acabamento imponente e visual refinado, as Coroas de Flores Platina oferecem uma homenagem memorável.",
 };
 
 type ProductSize = {
@@ -100,9 +111,16 @@ function CategoryCarousel({
 }) {
   return (
     <div>
-      <h3 className="mb-4 text-2xl font-bold text-[#1C1C1C] md:text-[28px]">
-        {CATEGORY_LABELS[category]}
-      </h3>
+      <div className="mb-6 text-center">
+        <h3 className="text-2xl font-bold text-[#1C1C1C] md:text-[28px]">
+          {CATEGORY_LABELS[category]}
+        </h3>
+        {CATEGORY_DESCRIPTIONS[category] && (
+          <p className="mt-2 text-[15px] text-[#6B6B6B]">
+            {CATEGORY_DESCRIPTIONS[category]}
+          </p>
+        )}
+      </div>
 
       <Carousel
         opts={{

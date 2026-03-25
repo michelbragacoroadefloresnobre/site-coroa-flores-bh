@@ -72,7 +72,7 @@ export function FinalCta() {
           <span className="hidden h-3.5 w-px bg-white/20 sm:block" />
           <span className="flex items-center gap-1.5 text-[13px] text-white/50">
             <CreditCard className="size-3.5" />
-            Pix · Cartão · Boleto
+            Pix · Cartão de Crédito/Débito
           </span>
           <span className="hidden h-3.5 w-px bg-white/20 sm:block" />
           <span className="flex items-center gap-1.5 text-[13px] text-white/50">

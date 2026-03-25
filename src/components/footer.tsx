@@ -74,7 +74,7 @@ export function Footer() {
             Formas de pagamento
           </p>
           <p className="text-sm text-gray-400">
-            Pix · Visa · Mastercard · Boleto · PayPal
+            Pix · Visa · Mastercard
           </p>
           <div className="mt-2 flex items-center gap-1.5 text-xs text-gray-400">
             <Lock className="size-3.5" />

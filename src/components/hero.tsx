@@ -47,15 +47,14 @@ export function Hero() {
           className="mt-7 max-w-[800px] font-serif text-[32px] leading-[1.15] font-bold text-white sm:text-[44px] md:text-[56px]"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.15s both" }}
         >
-          Coroas de flores entregues em Belo Horizonte com cuidado e no tempo certo.
+          Coroas de Flores para Velório em São Paulo com Entrega Rápida e Preço Justo.
         </h1>
 
         <p
           className="mt-6 max-w-[560px] text-lg text-white/90 md:text-xl"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.3s both" }}
         >
-          Atendimento pelo WhatsApp, 24 horas. A gente te orienta e cuida de
-          tudo até a entrega.
+          Nós entregamos homenagens florais com pontualidade e respeito em toda São Paulo e região metropolitana.
         </p>
 
         <a
@@ -66,14 +65,14 @@ export function Hero() {
           style={{ animation: "hero-fade-up 0.8s ease-out 0.45s both" }}
         >
           <MessageCircle className="size-5" />
-          Falar pelo WhatsApp
+          NOS CHAME NO WHATSAPP AGORA!
         </a>
 
         <p
           className="mt-3 text-sm text-white/75"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.55s both" }}
         >
-          Respondemos em minutos. Atendemos agora, inclusive feriados.
+          Respondemos em menos de 2 minutos. Atendemos agora, inclusive feriados.
         </p>
       </div>
 

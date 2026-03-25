@@ -58,7 +58,7 @@ export function DeliveryLocations() {
               className="inline-flex items-center gap-1.5 text-sm text-[#2D5A3D] hover:underline"
             >
               <MessageCircle className="size-3.5" />
-              Não encontrou sua cidade? Fale com a gente pelo WhatsApp.
+              Não encontrou sua cidade? Atendemos outros locais, consulte a disponibilidade no whatsapp.
             </a>
           </p>
         </div>

@@ -28,28 +28,28 @@ const CATEGORIES = [
     anchor: "tradicional",
     title: "Tradicional",
     description:
-      "Coroas clássicas com crisântemos e flores naturais. A escolha mais comum para homenagens sinceras.",
+      "Para você que está procurando coroas de flores para velório com pronta entrega e ótimo custo-benefício, compre Coroas Tradicionais.",
   },
   {
     key: "ouro",
     anchor: "ouro",
     title: "Ouro",
     description:
-      "Rosas nacionais e importadas com acabamento sofisticado. Para quem quer ir além do tradicional.",
-  },
-  {
-    key: "diamante",
-    anchor: "diamante",
-    title: "Diamante",
-    description:
-      "Orquídeas, lírios e rosas importadas em arranjos de luxo. Uma homenagem à altura.",
+      "Mais que um gesto, as Coroas de Flores Ouro representam admiração e reverência. Com flores nobres e montagem sofisticada.",
   },
   {
     key: "platina",
     anchor: "platina",
     title: "Platina",
     description:
-      "Flores nobres importadas em grande escala. O mais alto padrão de elegância e respeito.",
+      "Com um acabamento imponente e visual refinado, as Coroas de Flores Platina oferecem uma homenagem memorável.",
+  },
+  {
+    key: "diamante",
+    anchor: "diamante",
+    title: "Diamante",
+    description:
+      "As Coroas Diamante foram criadas para quem busca uma homenagem única e marcante. Com design imponente, elas expressam admiração e profundo respeito de forma elegante.",
   },
   {
     key: "especiais",
