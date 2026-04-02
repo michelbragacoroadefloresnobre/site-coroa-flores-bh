@@ -1,20 +1,5 @@
 [
   {
-    "id": "conjunto-coroa-de-flores-diamante",
-    "name": "Conjunto Coroa de Flores Diamante",
-    "category": "diamante",
-    "price": "R$ 3.300",
-    "description": "",
-    "image": "https://nobre-coroa-fotos.s3.us-east-1.amazonaws.com/WhatsApp Image 2024-11-08 at 17.33.23 (2).jpeg",
-    "sizes": {
-      "default": {
-        "price": 3300.0,
-        "height": 170,
-        "width": 120
-      }
-    }
-  },
-  {
     "id": "conjunto-de-coroa-de-flores-diamante",
     "name": "Conjunto de Coroa de Flores Diamante",
     "category": "diamante",
