@@ -31,36 +31,18 @@ type QuickOrderParams = {
   productName: string;
   sizeLabel: string;
   formattedPrice: string;
-  ribbonMessage?: string;
-  deliveryLocation?: string;
-  preferredTime?: string;
-  formattedDate?: string;
 };
 
 export function quickOrderMessage(params: QuickOrderParams): string {
   const lines: string[] = [
-    "Olá! Gostaria de fazer um pedido urgente:",
+    "Olá! Gostaria de fazer um pedido:",
     "",
     `Produto: ${params.productName} - Tamanho ${params.sizeLabel}`,
     `Preço: ${params.formattedPrice}`,
+    "",
+    "Podem me ajudar com este pedido?",
+    SITE_TAG.trimStart(),
   ];
-
-  if (params.ribbonMessage) {
-    lines.push(`Mensagem da faixa: "${params.ribbonMessage}"`);
-  }
-  if (params.deliveryLocation) {
-    lines.push(`Local de entrega: ${params.deliveryLocation}`);
-  }
-  if (params.preferredTime) {
-    lines.push(`Horário preferido: ${params.preferredTime}`);
-  }
-  if (params.formattedDate) {
-    lines.push(`Data prevista: ${params.formattedDate}`);
-  }
-
-  lines.push("");
-  lines.push("Preciso desta coroa com urgência. Podem confirmar a entrega?");
-  lines.push(SITE_TAG.trimStart());
 
   return lines.join("\n");
 }
