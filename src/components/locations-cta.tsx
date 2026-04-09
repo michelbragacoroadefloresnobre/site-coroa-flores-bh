@@ -13,7 +13,7 @@ export function LocationsCta() {
         </h2>
 
         <p className="mx-auto mt-4 max-w-[560px] text-[17px] text-[#6B6B6B]">
-          Atendemos outras cidades de Belo Horizonte e também do Brasil. Consulte a disponibilidade pelo WhatsApp.
+          Atendemos outras cidades da região metropolitana de Belo Horizonte e também de todo o Brasil. Consulte a disponibilidade pelo WhatsApp.
         </p>
 
         <a

@@ -112,6 +112,11 @@ export function ProductQuickOrderModal({
 
   useEffect(() => {
     if (!product) return;
+    setSize(product.sizes.big ? "big" : "default");
+  }, [product]);
+
+  useEffect(() => {
+    if (!product) return;
 
     document.body.style.overflow = "hidden";
 

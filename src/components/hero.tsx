@@ -10,7 +10,7 @@ export function Hero() {
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="/hero.jpg"
+        src="/hero.png"
         alt="Coroa de flores brancas"
         fill
         className="object-cover"
@@ -47,14 +47,14 @@ export function Hero() {
           className="mt-7 max-w-[800px] font-serif text-[32px] leading-[1.15] font-bold text-white sm:text-[44px] md:text-[56px]"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.15s both" }}
         >
-          Coroas de Flores para Velório em São Paulo com Entrega Rápida e Preço Justo.
+          Coroas de Flores para Velório em Belo Horizonte com Entrega Rápida e Preço Justo.
         </h1>
 
         <p
           className="mt-6 max-w-[560px] text-lg text-white/90 md:text-xl"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.3s both" }}
         >
-          Nós entregamos homenagens florais com pontualidade e respeito em toda São Paulo e região metropolitana.
+          Nós entregamos homenagens florais com pontualidade e respeito em toda Belo Horizonte e região metropolitana.
         </p>
 
         <a

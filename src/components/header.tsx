@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 import { MessageCircle, Menu, X } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
@@ -17,19 +16,7 @@ const navLinks = [
 const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
 export function Header() {
-  const pathname = usePathname();
-  const isHome = pathname === "/";
   const [menuOpen, setMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  const solid = !isHome || scrolled;
-
-  useEffect(() => {
-    function onScroll() {
-      setScrolled(window.scrollY > 0);
-    }
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   useEffect(() => {
     if (menuOpen) {
@@ -43,11 +30,7 @@ export function Header() {
   }, [menuOpen]);
 
   return (
-    <header
-      className={`fixed top-0 z-50 w-full transition-all duration-300 ${
-        solid ? "bg-white shadow-md" : "bg-transparent"
-      }`}
-    >
+    <header className="fixed top-0 z-50 w-full bg-white shadow-md">
       <div className="mx-auto flex h-[68px] max-w-[1200px] items-center justify-between px-4 md:px-6">
         {/* Logo */}
         <Link href="/" className="shrink-0">
@@ -67,11 +50,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-[15px] font-medium transition-colors duration-300 ${
-                solid
-                  ? "text-[#1C1C1C] hover:text-[#2D5A3D]"
-                  : "text-white/90 hover:text-white"
-              }`}
+              className="text-[15px] font-medium text-[#1C1C1C] transition-colors hover:text-[#2D5A3D]"
             >
               {link.label}
             </Link>
@@ -93,9 +72,7 @@ export function Header() {
         <button
           type="button"
           onClick={() => setMenuOpen(!menuOpen)}
-          className={`inline-flex size-10 items-center justify-center rounded-md transition-colors duration-300 md:hidden ${
-            solid ? "text-[#1C1C1C]" : "text-white"
-          }`}
+          className="inline-flex size-10 items-center justify-center rounded-md text-[#1C1C1C] transition-colors md:hidden"
           aria-label={menuOpen ? "Fechar menu" : "Abrir menu"}
         >
           {menuOpen ? <X className="size-6" /> : <Menu className="size-6" />}

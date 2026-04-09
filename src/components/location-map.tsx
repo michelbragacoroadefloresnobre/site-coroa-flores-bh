@@ -7,7 +7,7 @@ export function LocationMap({
   name: string
   city: string
 }) {
-  const query = encodeURIComponent(`${name} ${city} SP`)
+  const query = encodeURIComponent(`${name} ${city} MG`)
   const src = `https://maps.google.com/maps?q=${query}&t=&z=15&ie=UTF8&iwloc=&output=embed`
 
   return (
@@ -21,7 +21,7 @@ export function LocationMap({
         </div>
 
         <p className="mt-3 text-[15px] text-[#6B6B6B]">
-          Veja no mapa onde fica {name} em {city}, SP.
+          Veja no mapa onde fica {name} em {city}, MG.
         </p>
 
         <div className="mt-6 overflow-hidden rounded-xl border border-[#E8E4DE]">
