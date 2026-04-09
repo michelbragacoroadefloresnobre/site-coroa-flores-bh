@@ -59,6 +59,7 @@ export function Faq() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Tirar dúvidas pelo WhatsApp"
             className="inline-flex items-center gap-2 rounded-full border border-[#2D5A3D] px-6 py-3 text-[15px] font-medium text-[#2D5A3D] transition-colors hover:bg-[#2D5A3D] hover:text-white"
           >
             <MessageCircle className="size-4" />

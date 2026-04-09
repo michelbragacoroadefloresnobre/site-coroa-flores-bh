@@ -19,6 +19,7 @@ export function CatalogCta() {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Falar pelo WhatsApp sobre arranjos personalizados"
           className="mt-8 inline-flex items-center gap-2.5 rounded-full bg-[#2D5A3D] px-8 py-4 text-[16px] font-medium text-white transition-opacity hover:opacity-90"
         >
           <MessageCircle className="size-5" />

@@ -61,6 +61,7 @@ export function Hero() {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Enviar mensagem pelo WhatsApp"
           className="mt-8 inline-flex items-center gap-2.5 rounded-full bg-[#2D5A3D] px-8 py-4 text-[17px] font-medium text-white shadow-[0_4px_24px_rgba(0,0,0,0.25)] transition-all duration-200 hover:bg-[#346844] hover:shadow-[0_6px_32px_rgba(0,0,0,0.3)]"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.45s both" }}
         >

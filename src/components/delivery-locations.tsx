@@ -55,6 +55,7 @@ export function DeliveryLocations() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Consultar disponibilidade de entrega pelo WhatsApp"
               className="inline-flex items-center gap-1.5 text-sm text-[#2D5A3D] hover:underline"
             >
               <MessageCircle className="size-3.5" />

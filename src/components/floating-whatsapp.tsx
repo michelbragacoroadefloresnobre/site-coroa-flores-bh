@@ -55,7 +55,7 @@ export function FloatingWhatsapp() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Falar pelo WhatsApp"
-        className="group relative flex size-[60px] animate-[bounce-soft_2s_infinite] items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_4px_20px_rgba(37,211,102,0.4)] transition-transform duration-200 hover:scale-105 hover:paused active:scale-95"
+        className="group relative flex size-[60px] animate-[bounce-soft_2s_infinite] items-center justify-center rounded-full bg-[#25D366] text-white shadow-[0_4px_20px_rgba(37,211,102,0.4)] transition-transform duration-200 will-change-transform hover:scale-105 hover:paused active:scale-95"
       >
         {/* Pulse ring */}
         <span className="absolute inset-0 animate-ping rounded-full bg-[#25D366] opacity-20" />

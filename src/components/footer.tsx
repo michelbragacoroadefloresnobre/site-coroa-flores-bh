@@ -59,6 +59,7 @@ export function Footer() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Falar pelo WhatsApp - Contato"
               className="flex items-center gap-1.5 text-sm text-gray-400 transition-colors hover:text-white"
             >
               <MessageCircle className="size-3.5" />
@@ -85,7 +86,7 @@ export function Footer() {
 
       {/* Divisória + Copyright */}
       <hr className="mx-auto my-8 max-w-6xl border-white/10" />
-      <p className="text-center text-[13px] text-gray-500">
+      <p className="text-center text-[13px] text-gray-400">
         © 2026 Coroa de Flores Nobre. Todos os direitos reservados.
       </p>
     </footer>

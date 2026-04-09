@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
         hostname: "nobre-coroa-fotos.s3.us-east-1.amazonaws.com",
       },
     ],
+    formats: ["image/avif", "image/webp"],
+  },
+  experimental: {
+    inlineCss: true,
+    optimizeCss: true,
   },
 };
 

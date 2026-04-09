@@ -35,10 +35,10 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Coroa de Flores Belo Horizonte"
-            width={200}
-            height={200}
+            width={144}
+            height={144}
             className="w-36 h-auto"
             priority
           />
@@ -62,6 +62,7 @@ export function Header() {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Falar pelo WhatsApp"
           className="hidden items-center gap-2 rounded-full bg-[#2D5A3D] px-5 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90 md:inline-flex"
         >
           <MessageCircle className="size-4" />
@@ -101,6 +102,7 @@ export function Header() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Falar pelo WhatsApp"
               className="mt-2 flex items-center justify-center gap-2 rounded-full bg-[#2D5A3D] px-5 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
             >
               <MessageCircle className="size-4" />

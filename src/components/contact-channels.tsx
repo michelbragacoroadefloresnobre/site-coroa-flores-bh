@@ -31,6 +31,7 @@ export function ContactChannels() {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Falar agora pelo WhatsApp"
             className="mt-5 inline-flex w-fit items-center justify-center rounded-full bg-[#2D5A3D] px-6 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#244A32]"
           >
             Falar agora

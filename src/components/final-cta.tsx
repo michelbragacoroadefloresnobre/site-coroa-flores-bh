@@ -53,6 +53,7 @@ export function FinalCta() {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Falar pelo WhatsApp - Atendimento 24h"
           className="mt-10 inline-flex items-center gap-2.5 rounded-full bg-white px-8 py-4 text-base font-semibold text-[#1a3a2a] shadow-[0_4px_24px_rgba(0,0,0,0.2)] transition-all duration-200 hover:bg-gray-100 hover:shadow-[0_6px_32px_rgba(0,0,0,0.25)]"
         >
           <MessageCircle className="size-5" />

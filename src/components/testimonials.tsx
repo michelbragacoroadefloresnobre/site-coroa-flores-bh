@@ -106,6 +106,7 @@ export function Testimonials() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Falar pelo WhatsApp agora"
             className="inline-flex items-center gap-2 rounded-full bg-[#2D5A3D] px-8 py-3.5 text-[15px] font-medium text-white transition-opacity hover:opacity-90"
           >
             <MessageCircle className="size-4" />
