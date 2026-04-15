@@ -146,7 +146,13 @@ function CategoryCarousel({
   );
 }
 
-export function Catalog() {
+type CatalogProps = {
+  title?: string
+  subtitle?: string | null
+  showOrnament?: boolean
+}
+
+export function Catalog({ title, subtitle, showOrnament = true }: CatalogProps = {}) {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   const productsByCategory = CATEGORY_ORDER.map((category) => ({
@@ -155,7 +161,7 @@ export function Catalog() {
   })).filter(({ products: prods }) => prods.length > 0);
 
   return (
-    <section id="catalogo" className="relative overflow-hidden px-4 pt-20 pb-16 md:pt-24 md:pb-20">
+    <section id="catalogo" className="relative overflow-hidden px-4 pt-10 pb-8 md:pt-12 md:pb-10">
       {/* Decorative background patterns */}
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
         <svg className="absolute -top-20 -left-20 size-[400px] opacity-[0.03]" viewBox="0 0 200 200" fill="none">
@@ -172,13 +178,14 @@ export function Catalog() {
       {/* Header */}
       <div className="relative mx-auto max-w-[1100px] text-center">
         <h2 className="font-serif text-[32px] font-bold text-[#1C1C1C] md:text-[40px]">
-          Conheça nossas coroas de flores
+          {title ?? "Conheça nossas coroas de flores"}
         </h2>
-        <SectionOrnament className="mt-4" />
-        <p className="mt-4 text-[17px] text-[#6B6B6B]">
-          Montadas com flores frescas e entregues em até 1 hora. Escolha a que
-          faz sentido pra você.
-        </p>
+        {showOrnament && <SectionOrnament className="mt-4" />}
+        {subtitle !== null && (
+          <p className="mt-4 text-[17px] text-[#6B6B6B]">
+            {subtitle ?? "Montadas com flores frescas e entregues em até 1 hora. Escolha a que faz sentido pra você."}
+          </p>
+        )}
       </div>
 
       {/* Category Carousels */}

@@ -1,13 +1,11 @@
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { Breadcrumbs } from "@/components/breadcrumbs"
+import { Catalog } from "@/components/catalog"
+import { Faq } from "@/components/faq"
 import { LocationPageHero } from "@/components/location-page-hero"
-import { LocationInfo } from "@/components/location-info"
-import { LocationTribute } from "@/components/location-tribute"
-import { LocationProducts } from "@/components/location-products"
+import { LocationContent } from "@/components/location-content"
 import { LocationSiblings } from "@/components/location-siblings"
-import { LocationMap } from "@/components/location-map"
-import { LocationCta } from "@/components/location-cta"
 import {
   getAllSlugs,
   getLocationBySlug,
@@ -17,7 +15,9 @@ import {
   buildLocalBusinessSchema,
   buildBreadcrumbSchema,
   buildServiceSchema,
+  buildFaqSchema,
 } from "@/lib/structured-data"
+import faqItems from "@/data/faq.json"
 
 type PageProps = {
   params: Promise<{ slug: string }>
@@ -69,10 +69,11 @@ export default async function LocationPage({ params }: PageProps) {
     buildLocalBusinessSchema(location),
     buildBreadcrumbSchema(location),
     buildServiceSchema(location),
+    buildFaqSchema(faqItems),
   ]
 
   return (
-    <main>
+    <main className="[&_h2]:text-[26px] [&_h2]:md:text-[30px]">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -87,12 +88,18 @@ export default async function LocationPage({ params }: PageProps) {
       />
 
       <LocationPageHero location={location} />
-      <LocationInfo location={location} />
-      <LocationMap name={location.name} city={location.city} />
-      <LocationTribute location={location} />
-      <LocationProducts locationName={location.name} />
+
+      <Catalog
+        title={`Coroas de Flores com Entrega em ${location.name}`}
+        subtitle={null}
+        showOrnament={false}
+      />
+
+      <LocationContent location={location} />
+
+      <Faq />
+
       <LocationSiblings siblings={siblings} city={location.city} />
-      <LocationCta locationName={location.name} />
     </main>
   )
 }
