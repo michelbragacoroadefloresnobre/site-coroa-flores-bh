@@ -12,8 +12,19 @@ import {
   CarouselPrevious,
   CarouselNext,
 } from "@/components/ui/carousel";
-import { ProductQuickOrderModal } from "@/components/product-quick-order-modal";
+import { ProductImageLightbox } from "@/components/product-image-lightbox";
 import { SectionOrnament } from "@/components/section-ornament";
+import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { quickOrderMessage } from "@/lib/whatsapp-messages";
+import {
+  type Product,
+  type SizeKey,
+  SIZE_LABELS,
+  formatPrice,
+  getAvailableSizes,
+  getSizeData,
+  getDefaultSize,
+} from "@/lib/product-utils";
 
 const CATEGORY_ORDER = [
   "tradicionais",
@@ -42,32 +53,30 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
     "Com um acabamento imponente e visual refinado, as Coroas de Flores Platina oferecem uma homenagem memorável.",
 };
 
-type ProductSize = {
-  price: number;
-  height: number;
-  width: number;
-};
+function ProductCard({ product }: { product: Product }) {
+  const [size, setSize] = useState<SizeKey>(getDefaultSize(product));
+  const [lightboxOpen, setLightboxOpen] = useState(false);
 
-type Product = {
-  id: string;
-  name: string;
-  category: string;
-  price: string;
-  description: string;
-  image: string;
-  sizes: Record<string, ProductSize>;
-};
+  const availableSizes = getAvailableSizes(product);
+  const currentSize = getSizeData(product, size) ?? getSizeData(product, availableSizes[0])!;
 
-function ProductCard({
-  product,
-  onSelect,
-}: {
-  product: Product;
-  onSelect: (product: Product) => void;
-}) {
+  const handleOrder = () => {
+    const message = quickOrderMessage({
+      productName: product.name,
+      sizeLabel: SIZE_LABELS[size],
+      formattedPrice: formatPrice(currentSize.price),
+    });
+    window.open(buildWhatsappUrl(message), "_blank");
+  };
+
   return (
     <div className="group flex h-full flex-col overflow-hidden rounded-xl bg-white shadow-[0_2px_12px_rgba(0,0,0,0.08)]">
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-gray-50">
+      <button
+        type="button"
+        onClick={() => setLightboxOpen(true)}
+        className="relative aspect-[4/3] w-full cursor-pointer overflow-hidden bg-gray-50"
+        aria-label={`Ampliar imagem de ${product.name}`}
+      >
         <Image
           src={product.image}
           alt={product.name}
@@ -75,27 +84,60 @@ function ProductCard({
           className="object-contain transition-transform duration-300 group-hover:scale-110"
           sizes="(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 25vw"
         />
-      </div>
+      </button>
 
       <div className="flex flex-1 flex-col p-5 md:p-6">
         <h3 className="line-clamp-2 min-h-[2lh] text-lg font-semibold text-[#1C1C1C]">
           {product.name}
         </h3>
         <p className="mt-1.5 text-[15px] font-semibold text-[#2D5A3D]">
-          {product.price}
+          {formatPrice(currentSize.price)}
         </p>
-        <p className="mt-2 line-clamp-3 text-[14px] leading-snug text-[#6B6B6B]">
+        <p className="mt-1 line-clamp-3 text-[14px] leading-snug text-[#6B6B6B]">
           {product.description}
         </p>
 
-        <button
-          onClick={() => onSelect(product)}
-          className="mt-auto flex w-full items-center justify-center gap-2 rounded-full bg-[#2D5A3D] px-5 py-3 pt-4 text-[14px] font-medium text-white transition-opacity hover:opacity-90"
-        >
-          <MessageCircle className="size-4" />
-          Ver detalhes e pedir
-        </button>
+        <div className="mt-auto">
+          <div className="mb-2">
+            <span className="text-[12px] font-medium text-[#1C1C1C]">
+              Tamanho
+            </span>
+            <div className="mt-1 grid grid-cols-2 gap-1.5">
+              {availableSizes.map((s) => (
+                <button
+                  key={s}
+                  type="button"
+                  onClick={() => setSize(s)}
+                  aria-pressed={size === s}
+                  className={`rounded-lg py-1.5 text-[12px] font-medium transition-colors ${
+                    size === s
+                      ? "bg-[#2D5A3D] text-white"
+                      : "bg-[#F5F5F5] text-[#1C1C1C] hover:bg-[#E8E8E8]"
+                  }`}
+                >
+                  {SIZE_LABELS[s]}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <button
+            type="button"
+            onClick={handleOrder}
+            className="flex w-full items-center justify-center gap-1.5 rounded-full bg-[#2D5A3D] px-2 py-2 text-[13px] font-medium text-white transition-opacity hover:opacity-90"
+          >
+            <MessageCircle className="size-3.5" />
+            Pedir pelo WhatsApp
+          </button>
+        </div>
       </div>
+
+      <ProductImageLightbox
+        imageSrc={product.image}
+        imageAlt={product.name}
+        open={lightboxOpen}
+        onOpenChange={setLightboxOpen}
+      />
     </div>
   );
 }
@@ -103,11 +145,9 @@ function ProductCard({
 function CategoryCarousel({
   category,
   categoryProducts,
-  onSelect,
 }: {
   category: string;
   categoryProducts: Product[];
-  onSelect: (product: Product) => void;
 }) {
   return (
     <div>
@@ -135,7 +175,7 @@ function CategoryCarousel({
               key={product.id}
               className="basis-[80%] pl-4 sm:basis-1/2 lg:basis-1/4"
             >
-              <ProductCard product={product} onSelect={onSelect} />
+              <ProductCard product={product} />
             </CarouselItem>
           ))}
         </CarouselContent>
@@ -153,8 +193,6 @@ type CatalogProps = {
 }
 
 export function Catalog({ title, subtitle, showOrnament = true }: CatalogProps = {}) {
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-
   const productsByCategory = CATEGORY_ORDER.map((category) => ({
     category,
     products: (products as Product[]).filter((p) => p.category === category),
@@ -195,7 +233,6 @@ export function Catalog({ title, subtitle, showOrnament = true }: CatalogProps =
             key={category}
             category={category}
             categoryProducts={prods}
-            onSelect={setSelectedProduct}
           />
         ))}
       </div>
@@ -212,12 +249,6 @@ export function Catalog({ title, subtitle, showOrnament = true }: CatalogProps =
           Mais de 20 opções em 5 categorias, de R$ 350 a R$ 1.500.
         </p>
       </div>
-
-      {/* Quick Order Modal */}
-      <ProductQuickOrderModal
-        product={selectedProduct}
-        onClose={() => setSelectedProduct(null)}
-      />
     </section>
   );
 }
