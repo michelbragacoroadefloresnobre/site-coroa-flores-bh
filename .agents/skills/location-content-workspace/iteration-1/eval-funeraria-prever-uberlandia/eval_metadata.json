@@ -1,0 +1,77 @@
+{
+  "eval_id": 2,
+  "eval_name": "funeraria-prever-uberlandia",
+  "prompt": "Preciso adicionar a Funerária Prever de Uberlândia, MG",
+  "assertions": [
+    {
+      "id": "valid-json",
+      "text": "Output é JSON válido parseável",
+      "type": "programmatic"
+    },
+    {
+      "id": "all-fields-present",
+      "text": "JSON contém todos os 8 campos obrigatórios",
+      "type": "programmatic"
+    },
+    {
+      "id": "slug-format",
+      "text": "Slug é lowercase, usa hífens, sem acentos",
+      "type": "programmatic"
+    },
+    {
+      "id": "title-length",
+      "text": "Title tem entre 50-63 caracteres",
+      "type": "programmatic"
+    },
+    {
+      "id": "meta-description-boundary",
+      "text": "Primeiros 152 chars da introduction terminam em limite de palavra",
+      "type": "programmatic"
+    },
+    {
+      "id": "info-sections-count",
+      "text": "infoSections tem exatamente 3 seções",
+      "type": "programmatic"
+    },
+    {
+      "id": "tribute-sections-count",
+      "text": "tributeSections tem exatamente 3 seções",
+      "type": "programmatic"
+    },
+    {
+      "id": "word-count-500",
+      "text": "Conteúdo total tem 500+ palavras",
+      "type": "programmatic"
+    },
+    {
+      "id": "no-em-dashes",
+      "text": "Zero em dashes (—) no conteúdo",
+      "type": "programmatic"
+    },
+    {
+      "id": "disclaimer-present",
+      "text": "Disclaimer de independência presente no último parágrafo",
+      "type": "programmatic"
+    },
+    {
+      "id": "correct-article-na",
+      "text": "Seção de entrega usa artigo 'na' para Funerária (feminino)",
+      "type": "programmatic"
+    },
+    {
+      "id": "four-flowers",
+      "text": "Seção de flores tem 4 parágrafos com flores diferentes",
+      "type": "programmatic"
+    },
+    {
+      "id": "natural-tone",
+      "text": "Tom respeitoso e empático, sem exclamações",
+      "type": "qualitative"
+    },
+    {
+      "id": "factual-accuracy",
+      "text": "Informações sobre a Funerária Prever são verificáveis",
+      "type": "qualitative"
+    }
+  ]
+}

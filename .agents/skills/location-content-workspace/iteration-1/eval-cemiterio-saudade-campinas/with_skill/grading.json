@@ -1,0 +1,89 @@
+{
+  "run_id": "eval-cemiterio-saudade-campinas-with_skill",
+  "expectations": [
+    {
+      "text": "valid-json",
+      "passed": true,
+      "evidence": "JSON parsed successfully"
+    },
+    {
+      "text": "all-fields-present",
+      "passed": true,
+      "evidence": "All 8 fields present"
+    },
+    {
+      "text": "slug-format",
+      "passed": true,
+      "evidence": "Slug: 'cemiterio-saudade-campinas' - valid"
+    },
+    {
+      "text": "title-length",
+      "passed": true,
+      "evidence": "Title length: 57 chars (target: 50-63)"
+    },
+    {
+      "text": "meta-description-boundary",
+      "passed": false,
+      "evidence": "First 152 chars end with: '...lores neste local co' -> mid-word cut"
+    },
+    {
+      "text": "info-sections-count",
+      "passed": true,
+      "evidence": "infoSections count: 3 (expected: 3)"
+    },
+    {
+      "text": "tribute-sections-count",
+      "passed": true,
+      "evidence": "tributeSections count: 3 (expected: 3)"
+    },
+    {
+      "text": "word-count-500",
+      "passed": true,
+      "evidence": "Word count: 681 (minimum: 500)"
+    },
+    {
+      "text": "no-em-dashes",
+      "passed": true,
+      "evidence": "Em dash count: 0"
+    },
+    {
+      "text": "disclaimer-present",
+      "passed": true,
+      "evidence": "Last paragraph contains disclaimer: True"
+    },
+    {
+      "text": "correct-article",
+      "passed": true,
+      "evidence": "Delivery title: 'Entrega de flores no Cemitério da Saudade' - expected article 'no'"
+    },
+    {
+      "text": "four-flowers",
+      "passed": true,
+      "evidence": "Flower paragraphs: 4 (expected: 4)"
+    },
+    {
+      "text": "natural-tone-no-exclamations",
+      "passed": true,
+      "evidence": "Exclamation marks: 0"
+    },
+    {
+      "text": "keyword-location-name-6x",
+      "passed": true,
+      "evidence": "'Cemitério da Saudade' appears 8 times (minimum: 6)"
+    },
+    {
+      "text": "keyword-city-3x",
+      "passed": true,
+      "evidence": "'Campinas' appears 7 times (minimum: 3)"
+    },
+    {
+      "text": "keyword-coroa-de-flores-4x",
+      "passed": true,
+      "evidence": "'coroa(s) de flores' appears 6 times (minimum: 4)"
+    }
+  ],
+  "pass_rate": 0.9375,
+  "total": 16,
+  "passed": 15,
+  "failed": 1
+}

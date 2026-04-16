@@ -1,17 +1,21 @@
-# Meu Site
+# Coroa de Flores Nobre
+
+Site institucional e catálogo de coroas de flores para velórios e homenagens fúnebres. Atende Belo Horizonte e região metropolitana de Minas Gerais. Pedidos são feitos via WhatsApp com atendentes humanos (sem checkout automatizado).
 
 ## Tech Stack
-- Next.js 15+ (App Router)
+- Next.js 16 (App Router)
+- React 19
 - TypeScript (strict: true)
 - Tailwind CSS v4
-- shadcn/ui
+- shadcn/ui + Embla Carousel
 
 ## Estrutura de Diretórios
-- `src/app/` — Rotas do App Router
+- `src/app/` — Rotas do App Router (/, /catalogo, /contato, /locais, /locais/[slug])
 - `src/components/ui/` — Componentes shadcn/ui
-- `src/components/` — Componentes customizados
-- `src/lib/` — Funções utilitárias
+- `src/components/` — Componentes de página (hero, catalog, CTA, etc.)
+- `src/lib/` — Utilitários (WhatsApp, produtos, locais, SEO, URLs)
 - `src/types/` — Definições de tipos
+- `src/data/` — JSON com dados do site (produtos, locais, FAQ, contato, cidades, regiões, depoimentos, stats)
 
 ## Comandos
 - `npm run dev` — Servidor de desenvolvimento
@@ -27,9 +31,33 @@
 - Named exports, não default exports
 - Nomes de funções/componentes/variáveis sempre em inglês, português apenas para conteúdos do site
 
+## Dados e Conteúdo
+- Dados centralizados em arquivos JSON em `src/data/`
+- Produtos têm até 2 tamanhos (default/big) com preços individuais
+- Locais (~100+) geram páginas estáticas via `generateStaticParams()`
+- Utilitários de consulta em `src/lib/location-helpers.ts` e `src/lib/product-utils.ts`
+
+## WhatsApp
+- Toda ação de pedido/contato redireciona para WhatsApp via `src/lib/whatsapp.ts`
+- Templates de mensagem em `src/lib/whatsapp-messages.ts`
+- Botão flutuante global em `floating-whatsapp.tsx`
+
+## SEO
+- JSON-LD (LocalBusiness, Breadcrumb, Service, FAQ, ProductList) via `src/lib/structured-data.ts`
+- Sitemap dinâmico em `src/app/sitemap.ts`
+- Metadata por página + `generateMetadata()` nas rotas dinâmicas
+- Imagens otimizadas com Next.js Image (AVIF, WebP)
+
 ## Tailwind CSS
-- Versão v4: configuração vai no globals.css com @theme, NÃO criar tailwind.config.ts
+- Versão v4: configuração vai no `globals.css` com @theme, NÃO criar tailwind.config.ts
 - Usar design tokens semânticos (bg-primary, text-muted-foreground)
+- Cores em OKLch
+- Animações customizadas definidas em `globals.css` (hero-fade-up, scroll-hint, bounce-soft, scroll-reveal)
+
+## Imagens
+- Hospedadas em dois domínios remotos configurados em `next.config.ts`:
+  - `coroadefloresnobre.com.br`
+  - `nobre-coroa-fotos.s3.us-east-1.amazonaws.com`
 
 ## Off-Limits
 - Nenhum código fora de `src/`

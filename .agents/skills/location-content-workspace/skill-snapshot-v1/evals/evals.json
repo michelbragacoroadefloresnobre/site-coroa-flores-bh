@@ -1,0 +1,23 @@
+{
+  "skill_name": "location-content",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Cria o conteúdo para o Cemitério da Saudade de Campinas, SP",
+      "expected_output": "JSON completo com todos os campos do tipo Location, informações verificadas sobre o Cemitério da Saudade de Campinas, 500+ palavras, meta description nos primeiros 152 chars terminando em limite de palavra",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Preciso adicionar a Funerária Prever de Uberlândia, MG",
+      "expected_output": "JSON completo para funerária, com artigo 'na' correto na seção de entrega, informações reais sobre a Prever, tom respeitoso e empático",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Gera o conteúdo do Crematório Metropolitano de Curitiba, PR",
+      "expected_output": "JSON completo para crematório, mencionando cremação nas seções relevantes, informações verificadas, conteúdo adaptado ao tipo de local",
+      "files": []
+    }
+  ]
+}

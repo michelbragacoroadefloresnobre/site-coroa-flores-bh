@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import json; json.load\\(open\\('src/data/locations/generated/funeraria-social-pax-belo-horizonte.json'\\)\\); print\\('Valid JSON'\\)\")"
+    ]
+  }
+}

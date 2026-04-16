@@ -1,0 +1,77 @@
+{
+  "eval_id": 1,
+  "eval_name": "cemiterio-saudade-campinas",
+  "prompt": "Cria o conteúdo para o Cemitério da Saudade de Campinas, SP",
+  "assertions": [
+    {
+      "id": "valid-json",
+      "text": "Output é JSON válido parseável",
+      "type": "programmatic"
+    },
+    {
+      "id": "all-fields-present",
+      "text": "JSON contém todos os 8 campos obrigatórios: slug, name, city, uf, title, introduction, infoSections, tributeSections",
+      "type": "programmatic"
+    },
+    {
+      "id": "slug-format",
+      "text": "Slug é lowercase, usa hífens, sem acentos, sem caracteres especiais",
+      "type": "programmatic"
+    },
+    {
+      "id": "title-length",
+      "text": "Title tem entre 50-63 caracteres",
+      "type": "programmatic"
+    },
+    {
+      "id": "meta-description-boundary",
+      "text": "Primeiros 152 caracteres da introduction terminam em limite de palavra (não cortam no meio)",
+      "type": "programmatic"
+    },
+    {
+      "id": "info-sections-count",
+      "text": "infoSections tem exatamente 3 seções",
+      "type": "programmatic"
+    },
+    {
+      "id": "tribute-sections-count",
+      "text": "tributeSections tem exatamente 3 seções",
+      "type": "programmatic"
+    },
+    {
+      "id": "word-count-500",
+      "text": "Conteúdo total tem 500+ palavras",
+      "type": "programmatic"
+    },
+    {
+      "id": "no-em-dashes",
+      "text": "Zero ocorrências de em dashes (—) no conteúdo",
+      "type": "programmatic"
+    },
+    {
+      "id": "disclaimer-present",
+      "text": "Último parágrafo de tributeSections contém disclaimer de independência",
+      "type": "programmatic"
+    },
+    {
+      "id": "correct-article",
+      "text": "Seção de entrega usa artigo correto 'no' para Cemitério",
+      "type": "programmatic"
+    },
+    {
+      "id": "four-flowers",
+      "text": "Seção de flores tem exatamente 4 parágrafos com flores diferentes",
+      "type": "programmatic"
+    },
+    {
+      "id": "natural-tone",
+      "text": "Tom é respeitoso e empático, sem exclamações ou linguagem de vendas agressiva",
+      "type": "qualitative"
+    },
+    {
+      "id": "factual-accuracy",
+      "text": "Informações sobre o Cemitério da Saudade de Campinas são verificáveis e corretas",
+      "type": "qualitative"
+    }
+  ]
+}

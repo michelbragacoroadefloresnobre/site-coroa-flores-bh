@@ -1,0 +1,90 @@
+{
+  "skill_name": "location-content",
+  "iteration": 1,
+  "configurations": [
+    {
+      "name": "with_skill",
+      "evals": [
+        {
+          "eval_name": "cemiterio-saudade-campinas",
+          "pass_rate": 0.94,
+          "passed": 15,
+          "total": 16,
+          "tokens": 32569,
+          "duration_seconds": 177.5,
+          "failed_assertions": ["meta-description-boundary"]
+        },
+        {
+          "eval_name": "funeraria-prever-uberlandia",
+          "pass_rate": 1.0,
+          "passed": 16,
+          "total": 16,
+          "tokens": 44392,
+          "duration_seconds": 310.7,
+          "failed_assertions": []
+        },
+        {
+          "eval_name": "crematorio-metropolitano-curitiba",
+          "pass_rate": 1.0,
+          "passed": 17,
+          "total": 17,
+          "tokens": 39396,
+          "duration_seconds": 217.9,
+          "failed_assertions": []
+        }
+      ],
+      "aggregate": {
+        "mean_pass_rate": 0.98,
+        "mean_tokens": 38786,
+        "mean_duration_seconds": 235.4
+      }
+    },
+    {
+      "name": "without_skill",
+      "evals": [
+        {
+          "eval_name": "cemiterio-saudade-campinas",
+          "pass_rate": 1.0,
+          "passed": 16,
+          "total": 16,
+          "tokens": 19785,
+          "duration_seconds": 93.4,
+          "failed_assertions": []
+        },
+        {
+          "eval_name": "funeraria-prever-uberlandia",
+          "pass_rate": 1.0,
+          "passed": 16,
+          "total": 16,
+          "tokens": 33061,
+          "duration_seconds": 185.1,
+          "failed_assertions": []
+        },
+        {
+          "eval_name": "crematorio-metropolitano-curitiba",
+          "pass_rate": 0.94,
+          "passed": 16,
+          "total": 17,
+          "tokens": 25744,
+          "duration_seconds": 141.7,
+          "failed_assertions": ["meta-description-boundary"]
+        }
+      ],
+      "aggregate": {
+        "mean_pass_rate": 0.98,
+        "mean_tokens": 26197,
+        "mean_duration_seconds": 140.1
+      }
+    }
+  ],
+  "analysis": {
+    "observations": [
+      "Pass rates are identical overall (98% each), but the failures differ: with_skill failed meta-description for eval 1, without_skill failed it for eval 3.",
+      "With_skill uses ~48% more tokens (38.8k vs 26.2k avg) and takes ~68% longer (235s vs 140s avg), due to reading skill references and running the quality checklist.",
+      "The key qualitative difference is flower diversity: with_skill deliberately chose different flowers for Uberlândia (Gerberas, Orquídeas, Margaridas, Astromélias) to avoid duplicating existing entries, while without_skill used the standard set (Lírios, Rosas, Crisântemos, Gerberas).",
+      "With_skill mentioned cremation 7 times vs 4 for without_skill in the crematory eval, showing better type-specific adaptation.",
+      "With_skill was more cautious with unverified information (omitted specific address for Crematório when uncertain), while without_skill included a specific address.",
+      "The meta-description boundary assertion is the only failure across all runs - both with and without skill struggle with this, suggesting the instruction could be reinforced."
+    ]
+  }
+}
