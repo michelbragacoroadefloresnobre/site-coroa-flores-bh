@@ -17,7 +17,7 @@ export function About() {
       <div className="relative mx-auto grid max-w-[1100px] gap-12 md:grid-cols-2 md:gap-16">
         {/* Left — copy */}
         <div className="flex flex-col justify-center">
-          <h2 className="font-serif text-[32px] leading-[1.25] font-bold text-[#1C1C1C] md:text-[38px]">
+          <h2 className="font-serif text-[24px] leading-[1.25] font-bold text-[#1C1C1C] md:text-[38px]">
             Cuidamos de cada detalhe pra que você não precise se preocupar com
             isso agora.
           </h2>

@@ -41,11 +41,11 @@ export function FinalCta() {
           </span>
         </div>
 
-        <h2 className="font-serif text-[32px] font-bold text-white md:text-[48px]">
+        <h2 className="font-serif text-[24px] font-bold text-white md:text-[48px]">
           Tem alguém aqui pra te ajudar agora.
         </h2>
 
-        <p className="mt-4 text-lg text-white/80">
+        <p className="mt-4 text-base text-white/80 md:text-lg">
           Você escolhe. A gente resolve o resto.
         </p>
 

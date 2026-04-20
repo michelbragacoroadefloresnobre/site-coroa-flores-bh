@@ -8,10 +8,10 @@ export function CatalogCta() {
   return (
     <section className="w-full bg-[#F5F0EB] px-4 py-20 md:py-24">
       <div className="mx-auto flex max-w-[900px] flex-col items-center text-center">
-        <h2 className="font-serif text-[32px] font-bold text-[#1C1C1C] md:text-[40px]">
+        <h2 className="font-serif text-[24px] font-bold text-[#1C1C1C] md:text-[40px]">
           Não encontrou o que procura?
         </h2>
-        <p className="mt-4 text-[17px] leading-relaxed text-[#6B6B6B]">
+        <p className="mt-4 text-[15px] leading-relaxed text-[#6B6B6B] md:text-[17px]">
           A gente monta arranjos personalizados. Fale com a gente e a gente te
           ajuda a escolher.
         </p>

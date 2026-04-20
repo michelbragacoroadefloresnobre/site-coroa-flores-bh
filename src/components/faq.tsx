@@ -28,7 +28,7 @@ export function Faq() {
 
       <div className="relative mx-auto max-w-[900px]">
         {/* Header */}
-        <h2 className="text-center font-serif text-[32px] font-bold text-[#1C1C1C] md:text-[40px]">
+        <h2 className="text-center font-serif text-[24px] font-bold text-[#1C1C1C] md:text-[40px]">
           Perguntas que a gente recebe bastante
         </h2>
         <SectionOrnament className="mt-4" />

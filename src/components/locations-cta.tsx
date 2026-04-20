@@ -8,11 +8,11 @@ export function LocationsCta() {
   return (
     <section className="px-4 py-20 md:py-24">
       <div className="mx-auto max-w-[1100px] rounded-2xl bg-[#F5F0EB] px-6 py-14 text-center md:px-12 md:py-16">
-        <h2 className="font-serif text-[28px] font-bold text-[#1A1A1A] sm:text-[34px] md:text-[38px]">
+        <h2 className="font-serif text-[22px] font-bold text-[#1A1A1A] sm:text-[28px] md:text-[38px]">
           Não encontrou sua cidade?
         </h2>
 
-        <p className="mx-auto mt-4 max-w-[560px] text-[17px] text-[#6B6B6B]">
+        <p className="mx-auto mt-4 max-w-[560px] text-[15px] text-[#6B6B6B] md:text-[17px]">
           Atendemos outras cidades da região metropolitana de Belo Horizonte e também de todo o Brasil. Consulte a disponibilidade pelo WhatsApp.
         </p>
 

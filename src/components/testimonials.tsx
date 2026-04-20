@@ -39,11 +39,11 @@ export function Testimonials() {
       <div className="relative mx-auto max-w-[1100px]">
         {/* Header */}
         <div className="text-center">
-          <h2 className="font-serif text-[32px] font-bold text-[#1C1C1C] md:text-[40px]">
+          <h2 className="font-serif text-[24px] font-bold text-[#1C1C1C] md:text-[40px]">
             O que dizem sobre a Coroa de Flores Belo Horizonte
           </h2>
           <SectionOrnament className="mt-4" />
-          <p className="mt-4 text-[17px] text-[#6B6B6B]">
+          <p className="mt-4 text-[15px] text-[#6B6B6B] md:text-[17px]">
             Depoimentos reais de quem usou nossos serviços.
           </p>
         </div>

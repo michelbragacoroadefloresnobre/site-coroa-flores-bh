@@ -167,7 +167,7 @@ export function ProductGrid() {
           >
             <div className="mx-auto max-w-[1200px]">
               <div className="text-center">
-                <h2 className="font-serif text-[28px] font-bold text-[#1C1C1C] md:text-[32px]">
+                <h2 className="font-serif text-[22px] font-bold text-[#1C1C1C] md:text-[32px]">
                   {category.title}
                 </h2>
                 <p className="mx-auto mt-3 max-w-[600px] text-[16px] leading-relaxed text-[#555]">

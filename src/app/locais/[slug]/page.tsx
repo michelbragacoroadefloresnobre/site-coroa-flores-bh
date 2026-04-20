@@ -17,6 +17,7 @@ import {
   buildServiceSchema,
   buildFaqSchema,
 } from "@/lib/structured-data"
+import { locationDeliveryMessage } from "@/lib/whatsapp-messages"
 import faqItems from "@/data/faq.json"
 
 type PageProps = {
@@ -90,9 +91,12 @@ export default async function LocationPage({ params }: PageProps) {
       <LocationPageHero location={location} />
 
       <Catalog
-        title={`Coroas de Flores com Entrega em ${location.name}`}
+        title="Atendimento 24h, faixa personalizada e flores frescas"
         subtitle={null}
         showOrnament={false}
+        footerWhatsappMessage={locationDeliveryMessage(location.name)}
+        footerWhatsappLabel={`Pedir para ${location.name}`}
+        footerNote={null}
       />
 
       <LocationContent location={location} />

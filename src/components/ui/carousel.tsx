@@ -6,7 +6,6 @@ import useEmblaCarousel, {
 } from "embla-carousel-react"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/components/ui/button"
 import { ChevronLeftIcon, ChevronRightIcon } from "lucide-react"
 
 type CarouselApi = UseEmblaCarouselType[1]
@@ -173,19 +172,16 @@ function CarouselItem({ className, ...props }: React.ComponentProps<"div">) {
 
 function CarouselPrevious({
   className,
-  variant = "outline",
-  size = "icon-sm",
   ...props
-}: React.ComponentProps<typeof Button>) {
+}: React.ComponentProps<"button">) {
   const { orientation, scrollPrev, canScrollPrev } = useCarousel()
 
   return (
-    <Button
+    <button
+      type="button"
       data-slot="carousel-previous"
-      variant={variant}
-      size={size}
       className={cn(
-        "absolute touch-manipulation rounded-full",
+        "bg-background hover:bg-muted absolute z-20 flex size-9 touch-manipulation cursor-pointer items-center justify-center rounded-full border border-border shadow-sm outline-none transition-colors disabled:cursor-not-allowed disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-ring",
         orientation === "horizontal"
           ? "top-1/2 -left-12 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
@@ -195,27 +191,24 @@ function CarouselPrevious({
       onClick={scrollPrev}
       {...props}
     >
-      <ChevronLeftIcon />
+      <ChevronLeftIcon className="pointer-events-none size-5" />
       <span className="sr-only">Previous slide</span>
-    </Button>
+    </button>
   )
 }
 
 function CarouselNext({
   className,
-  variant = "outline",
-  size = "icon-sm",
   ...props
-}: React.ComponentProps<typeof Button>) {
+}: React.ComponentProps<"button">) {
   const { orientation, scrollNext, canScrollNext } = useCarousel()
 
   return (
-    <Button
+    <button
+      type="button"
       data-slot="carousel-next"
-      variant={variant}
-      size={size}
       className={cn(
-        "absolute touch-manipulation rounded-full",
+        "bg-background hover:bg-muted absolute z-20 flex size-9 touch-manipulation cursor-pointer items-center justify-center rounded-full border border-border shadow-sm outline-none transition-colors disabled:cursor-not-allowed disabled:opacity-50 focus-visible:ring-2 focus-visible:ring-ring",
         orientation === "horizontal"
           ? "top-1/2 -right-12 -translate-y-1/2"
           : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
@@ -225,9 +218,58 @@ function CarouselNext({
       onClick={scrollNext}
       {...props}
     >
-      <ChevronRightIcon />
+      <ChevronRightIcon className="pointer-events-none size-5" />
       <span className="sr-only">Next slide</span>
-    </Button>
+    </button>
+  )
+}
+
+function CarouselDots({ className }: { className?: string }) {
+  const { api } = useCarousel()
+  const [snaps, setSnaps] = React.useState<number[]>([])
+  const [selected, setSelected] = React.useState(0)
+
+  React.useEffect(() => {
+    if (!api) return
+    const update = () => {
+      setSnaps(api.scrollSnapList())
+      setSelected(api.selectedScrollSnap())
+    }
+    update()
+    api.on("reInit", update)
+    api.on("select", update)
+    return () => {
+      api.off("reInit", update)
+      api.off("select", update)
+    }
+  }, [api])
+
+  if (snaps.length <= 1) return null
+
+  return (
+    <div
+      className={cn("flex items-center justify-center gap-2", className)}
+      role="tablist"
+      aria-label="Navegação de produtos"
+    >
+      {snaps.map((_, index) => {
+        const isActive = index === selected
+        return (
+          <button
+            key={index}
+            type="button"
+            role="tab"
+            aria-selected={isActive}
+            aria-label={`Ir para produto ${index + 1}`}
+            onClick={() => api?.scrollTo(index)}
+            className={cn(
+              "h-2 rounded-full transition-all",
+              isActive ? "w-6 bg-[#2D5A3D]" : "w-2 bg-[#D4D4D4] hover:bg-[#A8A8A8]"
+            )}
+          />
+        )
+      })}
+    </div>
   )
 }
 
@@ -238,5 +280,6 @@ export {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
+  CarouselDots,
   useCarousel,
 }

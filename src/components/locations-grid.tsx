@@ -10,7 +10,7 @@ export function LocationsGrid() {
             key={region.slug}
             className="rounded-xl border border-[#E8E4DE] bg-white p-6 md:p-8"
           >
-            <h2 className="font-serif text-[22px] font-bold text-[#1A1A1A] md:text-[26px]">
+            <h2 className="font-serif text-[18px] font-bold text-[#1A1A1A] md:text-[26px]">
               {region.name}
             </h2>
 

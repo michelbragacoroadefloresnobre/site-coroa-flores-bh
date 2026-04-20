@@ -104,7 +104,7 @@ export function LocationContent({ location }: { location: Location }) {
 
         {hasMainInfo && (
           <>
-            <h2 className="font-serif text-[26px] font-bold text-[#1A1A1A] md:text-[30px]">
+            <h2 className="font-serif text-[22px] font-bold text-[#1A1A1A] md:text-[30px]">
               {mainSection.title}
             </h2>
 
@@ -125,7 +125,7 @@ export function LocationContent({ location }: { location: Location }) {
 
         {!hasMainInfo && tributeSections.length > 0 && (
           <>
-            <h2 className="font-serif text-[26px] font-bold text-[#1A1A1A] md:text-[30px]">
+            <h2 className="font-serif text-[22px] font-bold text-[#1A1A1A] md:text-[30px]">
               Como Escolher a Coroa de Flores Ideal para {location.name}
             </h2>
             <p className="mt-4 text-[16px] leading-relaxed text-[#444444]">

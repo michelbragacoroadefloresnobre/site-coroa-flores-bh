@@ -12,6 +12,7 @@ export type Product = {
   description: string;
   image: string;
   sizes: Record<string, ProductSize>;
+  bestSeller?: boolean;
 };
 
 export type SizeKey = "default" | "big";

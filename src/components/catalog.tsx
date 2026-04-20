@@ -11,6 +11,7 @@ import {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
+  CarouselDots,
 } from "@/components/ui/carousel";
 import { ProductImageLightbox } from "@/components/product-image-lightbox";
 import { SectionOrnament } from "@/components/section-ornament";
@@ -84,15 +85,17 @@ function ProductCard({ product }: { product: Product }) {
           className="object-contain transition-transform duration-300 group-hover:scale-110"
           sizes="(max-width: 640px) 80vw, (max-width: 1024px) 50vw, 25vw"
         />
+        {product.bestSeller && (
+          <span className="bg-secondary text-secondary-foreground absolute top-3 left-3 z-10 rounded-full px-2.5 py-1 text-[11px] font-semibold tracking-wide uppercase shadow-md">
+            Mais vendido
+          </span>
+        )}
       </button>
 
       <div className="flex flex-1 flex-col p-5 md:p-6">
         <h3 className="line-clamp-2 min-h-[2lh] text-lg font-semibold text-[#1C1C1C]">
           {product.name}
         </h3>
-        <p className="mt-1.5 text-[15px] font-semibold text-[#2D5A3D]">
-          {formatPrice(currentSize.price)}
-        </p>
         <p className="mt-1 line-clamp-3 text-[14px] leading-snug text-[#6B6B6B]">
           {product.description}
         </p>
@@ -102,22 +105,36 @@ function ProductCard({ product }: { product: Product }) {
             <span className="text-[12px] font-medium text-[#1C1C1C]">
               Tamanho
             </span>
-            <div className="mt-1 grid grid-cols-2 gap-1.5">
-              {availableSizes.map((s) => (
-                <button
-                  key={s}
-                  type="button"
-                  onClick={() => setSize(s)}
-                  aria-pressed={size === s}
-                  className={`rounded-lg py-1.5 text-[12px] font-medium transition-colors ${
-                    size === s
-                      ? "bg-[#2D5A3D] text-white"
-                      : "bg-[#F5F5F5] text-[#1C1C1C] hover:bg-[#E8E8E8]"
-                  }`}
-                >
-                  {SIZE_LABELS[s]}
-                </button>
-              ))}
+            <div className="mt-1 flex flex-col gap-1.5">
+              {availableSizes.map((s) => {
+                const sizeData = getSizeData(product, s)!;
+                const height = (sizeData.height / 100).toFixed(2);
+                const width = (sizeData.width / 100).toFixed(2);
+                return (
+                  <button
+                    key={s}
+                    type="button"
+                    onClick={() => setSize(s)}
+                    aria-pressed={size === s}
+                    aria-label={`${height}m x ${width}m, ${SIZE_LABELS[s]}`}
+                    className={`flex items-center justify-between gap-2 rounded-lg px-3 py-2 text-[12px] font-medium whitespace-nowrap transition-colors sm:text-[13px] ${
+                      size === s
+                        ? "bg-[#2D5A3D] text-white"
+                        : "bg-[#F5F5F5] text-[#1C1C1C] hover:bg-[#E8E8E8]"
+                    }`}
+                  >
+                    <span>
+                      {height} × {width} m
+                    </span>
+                    <span>
+                      {sizeData.price.toLocaleString("pt-BR", {
+                        style: "currency",
+                        currency: "BRL",
+                      })}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
           </div>
 
@@ -151,12 +168,12 @@ function CategoryCarousel({
 }) {
   return (
     <div>
-      <div className="mb-6 text-center">
-        <h3 className="text-2xl font-bold text-[#1C1C1C] md:text-[28px]">
+      <div className="mb-4 text-center">
+        <h3 className="text-lg font-bold text-[#1C1C1C] md:text-[28px]">
           {CATEGORY_LABELS[category]}
         </h3>
         {CATEGORY_DESCRIPTIONS[category] && (
-          <p className="mt-2 text-[15px] text-[#6B6B6B]">
+          <p className="mt-1 text-[13px] text-[#6B6B6B] md:mt-2 md:text-[15px]">
             {CATEGORY_DESCRIPTIONS[category]}
           </p>
         )}
@@ -173,14 +190,15 @@ function CategoryCarousel({
           {categoryProducts.map((product) => (
             <CarouselItem
               key={product.id}
-              className="basis-[80%] pl-4 sm:basis-1/2 lg:basis-1/4"
+              className="basis-full pl-4 sm:basis-1/2 lg:basis-1/4"
             >
               <ProductCard product={product} />
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="-left-4 md:-left-5" />
-        <CarouselNext className="-right-4 md:-right-5" />
+        <CarouselPrevious className="hidden md:-left-5 md:flex" />
+        <CarouselNext className="hidden md:-right-5 md:flex" />
+        <CarouselDots className="mt-5 md:hidden" />
       </Carousel>
     </div>
   );
@@ -190,16 +208,26 @@ type CatalogProps = {
   title?: string
   subtitle?: string | null
   showOrnament?: boolean
+  footerWhatsappMessage?: string
+  footerWhatsappLabel?: string
+  footerNote?: string | null
 }
 
-export function Catalog({ title, subtitle, showOrnament = true }: CatalogProps = {}) {
+export function Catalog({
+  title,
+  subtitle,
+  showOrnament = true,
+  footerWhatsappMessage,
+  footerWhatsappLabel = "Pedir pelo WhatsApp",
+  footerNote,
+}: CatalogProps = {}) {
   const productsByCategory = CATEGORY_ORDER.map((category) => ({
     category,
     products: (products as Product[]).filter((p) => p.category === category),
   })).filter(({ products: prods }) => prods.length > 0);
 
   return (
-    <section id="catalogo" className="relative overflow-hidden px-4 pt-10 pb-8 md:pt-12 md:pb-10">
+    <section id="catalogo" className="relative overflow-hidden px-4 pt-6 pb-8 md:pt-8 md:pb-10">
       {/* Decorative background patterns */}
       <div className="pointer-events-none absolute inset-0" aria-hidden="true">
         <svg className="absolute -top-20 -left-20 size-[400px] opacity-[0.03]" viewBox="0 0 200 200" fill="none">
@@ -215,19 +243,19 @@ export function Catalog({ title, subtitle, showOrnament = true }: CatalogProps =
 
       {/* Header */}
       <div className="relative mx-auto max-w-[1100px] text-center">
-        <h2 className="font-serif text-[32px] font-bold text-[#1C1C1C] md:text-[40px]">
+        <h2 className="font-serif text-[22px] font-bold text-[#1C1C1C] md:text-[32px] lg:text-[40px]">
           {title ?? "Conheça nossas coroas de flores"}
         </h2>
-        {showOrnament && <SectionOrnament className="mt-4" />}
+        {showOrnament && <SectionOrnament className="mt-2 md:mt-3" />}
         {subtitle !== null && (
-          <p className="mt-4 text-[17px] text-[#6B6B6B]">
+          <p className="mt-2 text-[15px] text-[#6B6B6B] md:mt-3 md:text-[17px]">
             {subtitle ?? "Montadas com flores frescas e entregues em até 1 hora. Escolha a que faz sentido pra você."}
           </p>
         )}
       </div>
 
       {/* Category Carousels */}
-      <div className="mx-auto mt-12 max-w-[1100px] space-y-14 px-8 md:px-12">
+      <div className="mx-auto mt-4 max-w-[1100px] space-y-10 px-8 md:space-y-12 md:px-12">
         {productsByCategory.map(({ category, products: prods }) => (
           <CategoryCarousel
             key={category}
@@ -239,15 +267,29 @@ export function Catalog({ title, subtitle, showOrnament = true }: CatalogProps =
 
       {/* Footer */}
       <div className="mx-auto mt-14 max-w-[1100px] text-center">
-        <Link
-          href="/catalogo"
-          className="inline-flex items-center rounded-full bg-[#2D5A3D] px-8 py-3.5 text-[15px] font-medium text-white transition-opacity hover:opacity-90"
-        >
-          Ver catálogo completo
-        </Link>
-        <p className="mt-3 text-sm text-[#6B6B6B]">
-          Mais de 20 opções em 5 categorias, de R$ 350 a R$ 1.500.
-        </p>
+        {footerWhatsappMessage ? (
+          <a
+            href={buildWhatsappUrl(footerWhatsappMessage)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-[#2D5A3D] px-8 py-3.5 text-[15px] font-medium text-white transition-opacity hover:opacity-90"
+          >
+            <MessageCircle className="size-4" />
+            {footerWhatsappLabel}
+          </a>
+        ) : (
+          <Link
+            href="/catalogo"
+            className="inline-flex items-center rounded-full bg-[#2D5A3D] px-8 py-3.5 text-[15px] font-medium text-white transition-opacity hover:opacity-90"
+          >
+            Ver catálogo completo
+          </Link>
+        )}
+        {footerNote !== null && (
+          <p className="mt-3 text-sm text-[#6B6B6B]">
+            {footerNote ?? "Mais de 20 opções em 5 categorias, de R$ 350 a R$ 1.500."}
+          </p>
+        )}
       </div>
     </section>
   );

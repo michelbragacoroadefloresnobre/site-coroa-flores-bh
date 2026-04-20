@@ -21,12 +21,10 @@ export default function Home() {
       />
       <Hero />
 
-      <ScrollReveal>
-        <Features />
-      </ScrollReveal>
+      <Catalog subtitle={null} />
 
       <ScrollReveal>
-        <Catalog />
+        <Features />
       </ScrollReveal>
 
       <ScrollReveal>

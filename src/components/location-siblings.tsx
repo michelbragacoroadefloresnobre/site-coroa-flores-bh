@@ -14,7 +14,7 @@ export function LocationSiblings({
   return (
     <section className="px-4 py-10 md:py-12">
       <div className="mx-auto max-w-[1200px]">
-        <h2 className="text-center font-serif text-[26px] font-bold text-[#1A1A1A] md:text-[30px]">
+        <h2 className="text-center font-serif text-[22px] font-bold text-[#1A1A1A] md:text-[30px]">
           Outros Locais de Entrega em {city}
         </h2>
 
