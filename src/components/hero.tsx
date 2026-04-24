@@ -46,7 +46,7 @@ export function Hero() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Enviar mensagem pelo WhatsApp"
-          className="mt-5 inline-flex items-center gap-2.5 rounded-full bg-[#2D5A3D] px-6 py-3 text-[12px] font-medium text-white shadow-[0_4px_24px_rgba(0,0,0,0.25)] transition-all duration-200 hover:bg-[#346844] hover:shadow-[0_6px_32px_rgba(0,0,0,0.3)] md:mt-8 md:px-8 md:py-4 md:text-[17px]"
+          className="mt-5 flex w-full items-center justify-center gap-2.5 rounded-full bg-[#2D5A3D] px-4 py-3 text-[clamp(12px,4vw,17px)] font-medium whitespace-nowrap text-white shadow-[0_4px_24px_rgba(0,0,0,0.25)] transition-all duration-200 hover:bg-[#346844] hover:shadow-[0_6px_32px_rgba(0,0,0,0.3)] md:mt-8 md:inline-flex md:w-auto md:px-8 md:py-4 md:text-[17px]"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.3s both" }}
         >
           <MessageCircle className="size-5" />
