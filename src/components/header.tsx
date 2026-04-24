@@ -31,7 +31,7 @@ export function Header() {
 
   return (
     <header className="fixed top-0 z-50 w-full bg-white shadow-md">
-      <div className="mx-auto flex h-[68px] max-w-[1200px] items-center justify-between px-4 md:px-6">
+      <div className="mx-auto flex h-(--header-height) max-w-[1200px] items-center justify-between px-4 md:px-6">
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <Image
@@ -82,7 +82,7 @@ export function Header() {
 
       {/* Mobile menu */}
       <div
-        className={`absolute inset-x-0 top-[68px] z-40 grid border-t border-gray-100 bg-white transition-[grid-template-rows,opacity] duration-300 ease-out md:hidden ${
+        className={`absolute inset-x-0 top-(--header-height) z-40 grid border-t border-gray-100 bg-white transition-[grid-template-rows,opacity] duration-300 ease-out md:hidden ${
           menuOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
         }`}
       >

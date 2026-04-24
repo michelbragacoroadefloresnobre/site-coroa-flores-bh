@@ -88,38 +88,44 @@ function ProductCard({ product }: { product: Product }) {
         />
       </button>
 
-      <div className="flex flex-1 flex-col p-5">
+      <div className="flex flex-1 flex-col p-3 md:p-4">
         <h3 className="line-clamp-2 min-h-[2lh] text-[16px] font-bold text-[#1C1C1C]">
           {product.name}
         </h3>
-        <p className="mt-1 text-[15px] font-bold text-[#2D5A3D]">
-          {formatPrice(currentSize.price)}
-        </p>
         <p className="mt-1.5 line-clamp-3 text-[14px] leading-snug text-[#6B6B6B]">
           {product.description}
         </p>
 
         <div className="mt-auto pt-3">
+          <p className="text-[16px] font-bold text-[#2D5A3D]">
+            {formatPrice(currentSize.price)}
+          </p>
           <div className="mb-2">
             <span className="text-[12px] font-medium text-[#1C1C1C]">
               Tamanho
             </span>
             <div className="mt-1 grid grid-cols-2 gap-1.5">
-              {availableSizes.map((s) => (
-                <button
-                  key={s}
-                  type="button"
-                  onClick={() => setSize(s)}
-                  aria-pressed={size === s}
-                  className={`rounded-lg py-1.5 text-[12px] font-medium transition-colors ${
-                    size === s
-                      ? "bg-[#2D5A3D] text-white"
-                      : "bg-[#F5F5F5] text-[#1C1C1C] hover:bg-[#E8E8E8]"
-                  }`}
-                >
-                  {SIZE_LABELS[s]}
-                </button>
-              ))}
+              {availableSizes.map((s) => {
+                const sizeData = getSizeData(product, s)!;
+                const height = (sizeData.height / 100).toFixed(2);
+                const width = (sizeData.width / 100).toFixed(2);
+                return (
+                  <button
+                    key={s}
+                    type="button"
+                    onClick={() => setSize(s)}
+                    aria-pressed={size === s}
+                    aria-label={`${height}m x ${width}m, ${SIZE_LABELS[s]}`}
+                    className={`rounded-lg px-2 py-2 text-[12px] font-medium whitespace-nowrap transition-colors ${
+                      size === s
+                        ? "bg-[#2D5A3D] text-white"
+                        : "bg-[#F5F5F5] text-[#1C1C1C] hover:bg-[#E8E8E8]"
+                    }`}
+                  >
+                    {height} × {width} m
+                  </button>
+                );
+              })}
             </div>
           </div>
 

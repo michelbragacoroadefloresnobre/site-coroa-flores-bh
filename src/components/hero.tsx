@@ -7,7 +7,7 @@ const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-[44vh] items-center justify-center overflow-hidden pt-17 sm:min-h-[50vh] md:min-h-[52vh] md:pt-0">
+    <section className="relative flex min-h-[calc(44vh+var(--header-height))] items-center justify-center overflow-hidden pt-(--header-height) sm:min-h-[calc(50vh+var(--header-height))] md:min-h-[calc(52vh+var(--header-height))]">
       {/* Background image */}
       <Image
         src="/hero.png"
@@ -26,7 +26,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(0,0,0,0.3)_100%)]" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center px-4 pt-4 text-center md:pt-14">
+      <div className="relative z-10 flex flex-col items-center px-4 text-center">
         <h1
           className="max-w-[800px] font-serif text-[26px] leading-[1.2] font-bold text-white sm:text-[40px] md:text-[56px] md:leading-[1.15]"
           style={{ animation: "hero-fade-up 0.8s ease-out both" }}
@@ -46,7 +46,7 @@ export function Hero() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Enviar mensagem pelo WhatsApp"
-          className="mt-5 inline-flex items-center gap-2.5 rounded-full bg-[#2D5A3D] px-6 py-3 text-[15px] font-medium text-white shadow-[0_4px_24px_rgba(0,0,0,0.25)] transition-all duration-200 hover:bg-[#346844] hover:shadow-[0_6px_32px_rgba(0,0,0,0.3)] md:mt-8 md:px-8 md:py-4 md:text-[17px]"
+          className="mt-5 inline-flex items-center gap-2.5 rounded-full bg-[#2D5A3D] px-6 py-3 text-[12px] font-medium text-white shadow-[0_4px_24px_rgba(0,0,0,0.25)] transition-all duration-200 hover:bg-[#346844] hover:shadow-[0_6px_32px_rgba(0,0,0,0.3)] md:mt-8 md:px-8 md:py-4 md:text-[17px]"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.3s both" }}
         >
           <MessageCircle className="size-5" />
