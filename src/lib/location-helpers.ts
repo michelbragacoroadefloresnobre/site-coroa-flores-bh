@@ -29,3 +29,29 @@ export function getSiblingLocations(
 export function getAllSlugs(): string[] {
   return locations.map((loc) => loc.slug)
 }
+
+const subregionToCity: Record<string, string> = {
+  centro: "Belo Horizonte",
+  "regiao-norte": "Belo Horizonte",
+  "regiao-sul": "Belo Horizonte",
+  "regiao-leste": "Belo Horizonte",
+  "regiao-oeste": "Belo Horizonte",
+  pampulha: "Belo Horizonte",
+  contagem: "Contagem",
+  betim: "Betim",
+  ibirite: "Ibirité",
+  "ribeirao-das-neves": "Ribeirão das Neves",
+  "santa-luzia": "Santa Luzia",
+  vespasiano: "Vespasiano",
+  "lagoa-santa": "Lagoa Santa",
+  sabara: "Sabará",
+  "nova-lima": "Nova Lima",
+  "juiz-de-fora": "Juiz de Fora",
+  uberlandia: "Uberlândia",
+}
+
+export function getLocationsBySubregion(subregionSlug: string): Location[] {
+  const city = subregionToCity[subregionSlug]
+  if (!city) return []
+  return locations.filter((loc) => loc.city === city)
+}

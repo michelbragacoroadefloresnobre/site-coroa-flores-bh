@@ -48,7 +48,6 @@ export function ContactChannels() {
           </h2>
           <div className="mt-2 space-y-1">
             <p className="text-base text-[#6B6B6B]">0800 024 4349</p>
-            <p className="text-base text-[#6B6B6B]">3003-7175</p>
             <p className="text-[15px] text-[#A0A0A0]">Atendimento 24 horas</p>
           </div>
         </div>

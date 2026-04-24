@@ -88,23 +88,20 @@ function ProductCard({ product }: { product: Product }) {
         />
       </button>
 
-      <div className="flex flex-1 flex-col p-3 md:p-4">
+      <div className="flex flex-1 flex-col p-5 md:p-6">
         <h3 className="line-clamp-2 min-h-[2lh] text-[16px] font-bold text-[#1C1C1C]">
           {product.name}
         </h3>
-        <p className="mt-1.5 line-clamp-3 text-[14px] leading-snug text-[#6B6B6B]">
+        <p className="mt-1 line-clamp-3 text-[14px] leading-snug text-[#6B6B6B]">
           {product.description}
         </p>
 
         <div className="mt-auto pt-3">
-          <p className="text-[16px] font-bold text-[#2D5A3D]">
-            {formatPrice(currentSize.price)}
-          </p>
           <div className="mb-2">
             <span className="text-[12px] font-medium text-[#1C1C1C]">
-              Tamanho
+              Tamanhos
             </span>
-            <div className="mt-1 grid grid-cols-2 gap-1.5">
+            <div className="mt-1 flex flex-col gap-1.5">
               {availableSizes.map((s) => {
                 const sizeData = getSizeData(product, s)!;
                 const height = (sizeData.height / 100).toFixed(2);
@@ -116,13 +113,21 @@ function ProductCard({ product }: { product: Product }) {
                     onClick={() => setSize(s)}
                     aria-pressed={size === s}
                     aria-label={`${height}m x ${width}m, ${SIZE_LABELS[s]}`}
-                    className={`rounded-lg px-2 py-2 text-[12px] font-medium whitespace-nowrap transition-colors ${
+                    className={`flex items-center justify-between gap-2 rounded-lg px-3 py-2 text-[12px] font-medium whitespace-nowrap transition-colors sm:text-[13px] ${
                       size === s
                         ? "bg-[#2D5A3D] text-white"
                         : "bg-[#F5F5F5] text-[#1C1C1C] hover:bg-[#E8E8E8]"
                     }`}
                   >
-                    {height} × {width} m
+                    <span>
+                      {height} × {width} m
+                    </span>
+                    <span>
+                      {sizeData.price.toLocaleString("pt-BR", {
+                        style: "currency",
+                        currency: "BRL",
+                      })}
+                    </span>
                   </button>
                 );
               })}
@@ -137,9 +142,6 @@ function ProductCard({ product }: { product: Product }) {
             <MessageCircle className="size-3.5" />
             Pedir pelo WhatsApp
           </button>
-          <p className="mt-2 text-center text-[12px] text-[#A0A0A0]">
-            A gente te responde em minutos.
-          </p>
         </div>
       </div>
 
