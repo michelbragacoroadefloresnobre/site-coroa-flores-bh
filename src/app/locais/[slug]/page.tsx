@@ -18,7 +18,9 @@ import {
   buildFaqSchema,
 } from "@/lib/structured-data"
 import { locationDeliveryMessage } from "@/lib/whatsapp-messages"
-import faqItems from "@/data/faq.json"
+import { city } from "@/lib/city"
+
+const faqItems = city.faq
 
 type PageProps = {
   params: Promise<{ slug: string }>

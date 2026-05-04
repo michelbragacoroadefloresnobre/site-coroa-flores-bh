@@ -1,4 +1,6 @@
-const SITE_TAG = "\n\n(Vim do site Coroa de Flores BH)";
+import { city } from "@/lib/city";
+
+const SITE_TAG = `\n\n${city.config.copy.whatsappSignature}`;
 
 export const whatsappMessages = {
   generalHelp:

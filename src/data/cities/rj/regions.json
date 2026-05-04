@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Rio de Janeiro — Capital",
+    "slug": "rio-de-janeiro",
+    "cities": [
+      { "name": "Zona Sul", "slug": "zona-sul" },
+      { "name": "Zona Norte", "slug": "zona-norte" },
+      { "name": "Zona Oeste", "slug": "zona-oeste" },
+      { "name": "Centro", "slug": "centro" }
+    ]
+  },
+  {
+    "name": "Região Metropolitana — Leste",
+    "slug": "regiao-metropolitana-leste",
+    "cities": [
+      { "name": "Niterói", "slug": "niteroi" },
+      { "name": "São Gonçalo", "slug": "sao-goncalo" },
+      { "name": "Itaboraí", "slug": "itaborai" },
+      { "name": "Magé", "slug": "mage" }
+    ]
+  },
+  {
+    "name": "Baixada Fluminense",
+    "slug": "baixada-fluminense",
+    "cities": [
+      { "name": "Duque de Caxias", "slug": "duque-de-caxias" },
+      { "name": "Nova Iguaçu", "slug": "nova-iguacu" },
+      { "name": "Belford Roxo", "slug": "belford-roxo" },
+      { "name": "São João de Meriti", "slug": "sao-joao-de-meriti" }
+    ]
+  },
+  {
+    "name": "Região Serrana",
+    "slug": "regiao-serrana",
+    "cities": [
+      { "name": "Petrópolis", "slug": "petropolis" }
+    ]
+  }
+]

@@ -6,6 +6,7 @@ import Image from "next/image";
 import { MessageCircle, Menu, X } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
+import { city } from "@/lib/city";
 
 const navLinks = [
   { label: "Início", href: "/" },
@@ -35,8 +36,8 @@ export function Header() {
         {/* Logo */}
         <Link href="/" className="shrink-0">
           <Image
-            src="/logo.webp"
-            alt="Coroa de Flores Belo Horizonte"
+            src={city.config.logoPath}
+            alt={city.config.copy.headerLogoAlt}
             width={144}
             height={144}
             className="w-36 h-auto"

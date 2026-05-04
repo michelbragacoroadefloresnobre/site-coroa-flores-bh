@@ -1,10 +1,11 @@
 import { MessageCircle, Star, Users } from "lucide-react";
 import { SectionOrnament } from "@/components/section-ornament";
-import testimonials from "@/data/testimonials.json";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
+import { city } from "@/lib/city";
 
 const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
+const testimonials = city.testimonials;
 
 function Stars() {
   return (
@@ -40,7 +41,7 @@ export function Testimonials() {
         {/* Header */}
         <div className="text-center">
           <h2 className="font-serif text-[24px] font-bold text-[#1C1C1C] md:text-[40px]">
-            O que dizem sobre a Coroa de Flores Belo Horizonte
+            {city.config.copy.testimonialsTitle}
           </h2>
           <SectionOrnament className="mt-4" />
           <p className="mt-4 text-[15px] text-[#6B6B6B] md:text-[17px]">
@@ -54,8 +55,8 @@ export function Testimonials() {
             <Users className="size-5 text-[#2D5A3D]" strokeWidth={1.5} />
           </div>
           <p className="text-[17px] text-[#4A4A4A]">
-            <span className="font-bold text-[#2D5A3D]">+5.000</span> famílias
-            atendidas com cuidado em Belo Horizonte
+            <span className="font-bold text-[#2D5A3D]">+5.000</span>{" "}
+            {city.config.copy.testimonialsCounter}
           </p>
         </div>
 

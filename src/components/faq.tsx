@@ -7,12 +7,13 @@ import {
   AccordionTrigger,
   AccordionContent,
 } from "@/components/ui/accordion";
-import faqItems from "@/data/faq.json";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
 import { SectionOrnament } from "@/components/section-ornament";
+import { city } from "@/lib/city";
 
 const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.serviceQuestion);
+const faqItems = city.faq;
 
 export function Faq() {
   return (

@@ -1,6 +1,7 @@
 import { MessageCircle } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
+import { city } from "@/lib/city";
 
 const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.deliveryInquiry);
 
@@ -13,7 +14,7 @@ export function LocationsCta() {
         </h2>
 
         <p className="mx-auto mt-4 max-w-[560px] text-[15px] text-[#6B6B6B] md:text-[17px]">
-          Atendemos outras cidades da região metropolitana de Belo Horizonte e também de todo o Brasil. Consulte a disponibilidade pelo WhatsApp.
+          {city.config.copy.locationsCtaParagraph}
         </p>
 
         <a

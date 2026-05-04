@@ -3,8 +3,10 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ChevronDown, MapPin } from "lucide-react";
-import regions from "@/data/regions.json";
+import { city } from "@/lib/city";
 import { getLocationsBySubregion } from "@/lib/location-helpers";
+
+const regions = city.regions;
 
 export function LocationsGrid() {
   const [openKey, setOpenKey] = useState<string | null>(null);

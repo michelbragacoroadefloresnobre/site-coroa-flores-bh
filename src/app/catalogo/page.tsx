@@ -4,19 +4,18 @@ import { CategoryNav } from "@/components/category-nav";
 import { ProductGrid } from "@/components/product-grid";
 import { CatalogCta } from "@/components/catalog-cta";
 import { buildProductListSchema } from "@/lib/structured-data";
+import { city } from "@/lib/city";
 import products from "@/data/products.json";
 
 export const metadata: Metadata = {
   title: "Catálogo de Coroas de Flores",
-  description:
-    "Veja nosso catálogo completo de coroas de flores para velório e funeral. Modelos a partir de R$315, com entrega em até 1 hora em Belo Horizonte e região.",
+  description: city.config.copy.catalogMetadataDescription,
   alternates: {
     canonical: "/catalogo",
   },
   openGraph: {
     title: "Catálogo de Coroas de Flores | Coroa de Flores Nobre",
-    description:
-      "Veja nosso catálogo completo de coroas de flores para velório e funeral. Modelos a partir de R$315, com entrega em até 1 hora em Belo Horizonte e região.",
+    description: city.config.copy.catalogMetadataDescription,
     url: "/catalogo",
     siteName: "Coroa de Flores Nobre",
     locale: "pt_BR",

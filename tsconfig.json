@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/active-city/*": ["./src/data/cities/bh/*"]
     }
   },
   "include": [

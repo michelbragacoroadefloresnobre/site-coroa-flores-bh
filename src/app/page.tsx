@@ -8,7 +8,9 @@ import { Hero } from "@/components/hero";
 import { ScrollReveal } from "@/components/scroll-reveal";
 import { Testimonials } from "@/components/testimonials";
 import { buildFaqSchema } from "@/lib/structured-data";
-import faqItems from "@/data/faq.json";
+import { city } from "@/lib/city";
+
+const faqItems = city.faq;
 
 export default function Home() {
   return (

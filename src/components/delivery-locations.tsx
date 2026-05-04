@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { MapPin, MessageCircle } from "lucide-react";
-import cities from "@/data/cities.json";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
+import { city } from "@/lib/city";
 
 const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.deliveryRegionInquiry);
+const cities = city.deliveryCities;
 
 export function DeliveryLocations() {
   return (
@@ -22,7 +23,7 @@ export function DeliveryLocations() {
       <div className="relative mx-auto max-w-[1100px] text-center">
         {/* Header */}
         <h2 className="font-serif text-[24px] font-bold text-[#1C1C1C] md:text-[40px]">
-          Entregamos em Belo Horizonte e em toda a região metropolitana
+          {city.config.copy.deliveryHeading}
         </h2>
         <p className="mt-4 text-[15px] text-[#6B6B6B] md:text-[17px]">
           Cobertura ampla com entrega em até 1 hora. Veja se atendemos a sua

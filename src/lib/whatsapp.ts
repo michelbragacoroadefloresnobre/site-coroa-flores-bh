@@ -1,5 +1,5 @@
-import contact from "@/data/contact.json";
+import { city } from "@/lib/city";
 
 export function buildWhatsappUrl(message: string): string {
-  return `https://wa.me/${contact.whatsappNumber}?text=${encodeURIComponent(message)}`;
+  return `https://wa.me/${city.contact.whatsappNumber}?text=${encodeURIComponent(message)}`;
 }

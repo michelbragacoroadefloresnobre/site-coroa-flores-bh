@@ -2,7 +2,7 @@ import Link from "next/link";
 import { MessageCircle, Lock } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
-import contact from "@/data/contact.json";
+import { city } from "@/lib/city";
 
 const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
@@ -23,9 +23,7 @@ export function Footer() {
             Coroa de Flores Nobre
           </p>
           <p className="text-sm text-gray-400">CNPJ: 51.633.347/0001-02</p>
-          <p className="text-sm text-gray-400">
-            contato@coroadefloresnobre.com.br
-          </p>
+          <p className="text-sm text-gray-400">{city.contact.email}</p>
           <p className="text-sm text-gray-400">
             Atendemos 24 horas, todos os dias
           </p>
@@ -65,7 +63,7 @@ export function Footer() {
               <MessageCircle className="size-3.5" />
               WhatsApp
             </a>
-            <p className="text-sm text-gray-400">{contact.phoneFormatted}</p>
+            <p className="text-sm text-gray-400">{city.contact.phoneFormatted}</p>
           </div>
         </div>
 

@@ -1,6 +1,7 @@
 import { MessageCircle, Phone, Mail } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
+import { city } from "@/lib/city";
 
 function ChannelIcon({ children }: { children: React.ReactNode }) {
   return (
@@ -47,7 +48,7 @@ export function ContactChannels() {
             Telefones
           </h2>
           <div className="mt-2 space-y-1">
-            <p className="text-base text-[#6B6B6B]">0800 024 4349</p>
+            <p className="text-base text-[#6B6B6B]">{city.contact.phoneFormatted}</p>
             <p className="text-[15px] text-[#A0A0A0]">Atendimento 24 horas</p>
           </div>
         </div>
@@ -61,9 +62,7 @@ export function ContactChannels() {
             E-mail
           </h2>
           <div className="mt-2 space-y-1">
-            <p className="text-base text-[#6B6B6B]">
-              contato@coroadefloresnobre.com.br
-            </p>
+            <p className="text-base text-[#6B6B6B]">{city.contact.email}</p>
             <p className="text-[15px] text-[#A0A0A0]">
               Resposta rápida para dúvidas gerais
             </p>

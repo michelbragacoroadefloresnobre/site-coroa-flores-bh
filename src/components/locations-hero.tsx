@@ -1,4 +1,5 @@
 import { SectionOrnament } from "@/components/section-ornament";
+import { city } from "@/lib/city";
 
 export function LocationsHero() {
   return (
@@ -9,8 +10,7 @@ export function LocationsHero() {
         </h1>
         <SectionOrnament className="mt-4" />
         <p className="mx-auto mt-4 max-w-[560px] text-base text-[#555555] md:text-lg">
-          Entregamos coroas de flores em Belo Horizonte e em toda a região
-          metropolitana, em até 1 hora.
+          {city.config.copy.locationsHeroSubtitle}
         </p>
       </div>
     </section>

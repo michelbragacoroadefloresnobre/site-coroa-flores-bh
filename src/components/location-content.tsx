@@ -49,8 +49,8 @@ function ContentSections({ sections }: { sections: LocationSection[] }) {
   )
 }
 
-function MapEmbed({ name, city }: { name: string; city: string }) {
-  const query = encodeURIComponent(`${name} ${city} MG`)
+function MapEmbed({ name, cityName, uf }: { name: string; cityName: string; uf: string }) {
+  const query = encodeURIComponent(`${name} ${cityName} ${uf}`)
   const src = `https://maps.google.com/maps?q=${query}&t=&z=15&ie=UTF8&iwloc=&output=embed`
 
   return (
@@ -63,12 +63,12 @@ function MapEmbed({ name, city }: { name: string; city: string }) {
       </div>
 
       <p className="mt-3 text-[15px] text-[#6B6B6B]">
-        Veja no mapa onde fica {name} em {city}, MG.
+        Veja no mapa onde fica {name} em {cityName}, {uf}.
       </p>
 
       <div className="mt-6 overflow-hidden rounded-xl border border-[#E8E4DE]">
         <iframe
-          title={`Mapa de ${name} em ${city}`}
+          title={`Mapa de ${name} em ${cityName}`}
           src={src}
           className="aspect-video w-full"
           loading="lazy"
@@ -136,7 +136,7 @@ export function LocationContent({ location }: { location: Location }) {
           </>
         )}
 
-        <MapEmbed name={location.name} city={location.city} />
+        <MapEmbed name={location.name} cityName={location.city} uf={location.uf} />
 
         <ContentSections sections={tributeSections} />
       </div>

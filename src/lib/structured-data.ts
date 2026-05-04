@@ -1,5 +1,5 @@
 import type { Location } from "@/types/location"
-import contact from "@/data/contact.json"
+import { city, getStateNameByUf } from "@/lib/city"
 import { getBaseUrl } from "@/lib/base-url"
 
 type FaqItem = {
@@ -22,14 +22,14 @@ export function buildLocalBusinessSchema(location: Location) {
     name: `Coroa de Flores Nobre — ${location.name}`,
     description: location.introduction.slice(0, 200),
     url: `${BASE_URL}/locais/${location.slug}`,
-    telephone: contact.phoneFormatted,
-    email: contact.email,
+    telephone: city.contact.phoneFormatted,
+    email: city.contact.email,
     areaServed: {
       "@type": "City",
       name: location.city,
       containedInPlace: {
         "@type": "State",
-        name: "Minas Gerais",
+        name: getStateNameByUf(location.uf),
       },
     },
     openingHoursSpecification: {
@@ -86,7 +86,7 @@ export function buildServiceSchema(location: Location) {
     provider: {
       "@type": "LocalBusiness",
       name: "Coroa de Flores Nobre",
-      telephone: contact.phoneFormatted,
+      telephone: city.contact.phoneFormatted,
     },
     areaServed: {
       "@type": "City",

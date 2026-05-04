@@ -2,6 +2,7 @@ import Image from "next/image";
 import { MessageCircle } from "lucide-react";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
 import { whatsappMessages } from "@/lib/whatsapp-messages";
+import { city } from "@/lib/city";
 
 const WHATSAPP_URL = buildWhatsappUrl(whatsappMessages.generalHelp);
 
@@ -31,14 +32,14 @@ export function Hero() {
           className="max-w-[800px] font-serif text-[26px] leading-[1.2] font-bold text-white sm:text-[40px] md:text-[56px] md:leading-[1.15]"
           style={{ animation: "hero-fade-up 0.8s ease-out both" }}
         >
-          Coroas de Flores para Velório em Belo Horizonte com Entrega Rápida e Preço Justo.
+          {city.config.copy.heroTitle}
         </h1>
 
         <p
           className="mt-3 max-w-[560px] text-base text-white/90 md:mt-6 md:text-xl"
           style={{ animation: "hero-fade-up 0.8s ease-out 0.15s both" }}
         >
-          Pontualidade e respeito em toda a região metropolitana de BH.
+          {city.config.copy.heroSubtitle}
         </p>
 
         <a

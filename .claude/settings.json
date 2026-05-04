@@ -2,7 +2,36 @@
   "permissions": {
     "allow": [
       "Bash(python3 -c ' *)",
-      "Bash(python3 -c \"import json; json.load\\(open\\('src/data/locations/generated/funeraria-social-pax-belo-horizonte.json'\\)\\); print\\('Valid JSON'\\)\")"
+      "Bash(python3 -c \"import json; json.load\\(open\\('src/data/locations/generated/funeraria-social-pax-belo-horizonte.json'\\)\\); print\\('Valid JSON'\\)\")",
+      "Bash(npm run *)",
+      "mcp__context7__query-docs",
+      "Bash(NEXT_PUBLIC_CITY=bh npm run build)",
+      "Bash(NEXT_PUBLIC_CITY=xx npm run build)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/bh/locations.json'\\)\\); print\\('count:', len\\(d\\)\\); print\\('keys:', sorted\\(d[0].keys\\(\\)\\)\\); print\\('sample:', json.dumps\\(d[0], indent=2, ensure_ascii=False\\)[:1500]\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/sp/locations.json'\\)\\); print\\('count:', len\\(d\\)\\); print\\('keys:', sorted\\(d[0].keys\\(\\)\\)\\); print\\('sample:', json.dumps\\(d[0], indent=2, ensure_ascii=False\\)[:1500]\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/rj/locations.json'\\)\\); print\\('count:', len\\(d\\)\\); print\\('keys:', sorted\\(d[0].keys\\(\\)\\)\\); print\\('sample:', json.dumps\\(d[0], indent=2, ensure_ascii=False\\)[:1500]\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/bh/regions.json'\\)\\); print\\('top-level:', type\\(d\\).__name__\\); print\\('count:', len\\(d\\)\\); print\\('item[0] keys:', sorted\\(d[0].keys\\(\\)\\)\\); print\\(json.dumps\\(d[0], indent=2, ensure_ascii=False\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/sp/regions.json'\\)\\); print\\('top-level:', type\\(d\\).__name__\\); print\\('count:', len\\(d\\)\\); print\\('item[0] keys:', sorted\\(d[0].keys\\(\\)\\)\\); print\\(json.dumps\\(d[0], indent=2, ensure_ascii=False\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/rj/regions.json'\\)\\); print\\('top-level:', type\\(d\\).__name__\\); print\\('count:', len\\(d\\)\\); print\\('item[0] keys:', sorted\\(d[0].keys\\(\\)\\)\\); print\\(json.dumps\\(d[0], indent=2, ensure_ascii=False\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/bh/testimonials.json'\\)\\); print\\('count:', len\\(d\\)\\); print\\('keys:', sorted\\(d[0].keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/sp/testimonials.json'\\)\\); print\\('count:', len\\(d\\)\\); print\\('keys:', sorted\\(d[0].keys\\(\\)\\) if d else 'EMPTY'\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/rj/testimonials.json'\\)\\); print\\('count:', len\\(d\\)\\); print\\('keys:', sorted\\(d[0].keys\\(\\)\\) if d else 'EMPTY'\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/bh/faq.json'\\)\\); print\\('count:', len\\(d\\)\\); print\\('keys:', sorted\\(d[0].keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/sp/faq.json'\\)\\); print\\('count:', len\\(d\\)\\); print\\('keys:', sorted\\(d[0].keys\\(\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/bh/locations.json'\\)\\); ks=set\\(\\); [ks.update\\(it.keys\\(\\)\\) for it in d]; print\\(sorted\\(ks\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/sp/locations.json'\\)\\); ks=set\\(\\); [ks.update\\(it.keys\\(\\)\\) for it in d]; print\\(sorted\\(ks\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/rj/locations.json'\\)\\); ks=set\\(\\); [ks.update\\(it.keys\\(\\)\\) for it in d]; print\\(sorted\\(ks\\)\\)\")",
+      "Bash(python3 -c 'import json; cities=['\\\\''bh'\\\\'','\\\\''sp'\\\\'','\\\\''rj'\\\\''] *)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/bh/locations.json'\\)\\); print\\(sorted\\(set\\(it['city'] for it in d\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/sp/locations.json'\\)\\); print\\(sorted\\(set\\(it['city'] for it in d\\)\\)\\)\")",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/luizpachioni/projetos/site-coroa-flores-bh/src/data/cities/rj/locations.json'\\)\\); print\\(sorted\\(set\\(it['city'] for it in d\\)\\)\\)\")",
+      "Bash(cp /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/bh.webp /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/sp.webp)",
+      "Bash(cp /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/bh.webp /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/rj.webp)",
+      "Bash(cp /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/bh.png /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/sp.png)",
+      "Bash(cp /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/bh.png /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/rj.png)",
+      "Bash(NEXT_PUBLIC_CITY=sp npm run build)",
+      "Bash(NEXT_PUBLIC_CITY=rj npm run build)",
+      "Bash(node -e \"const sharp = require\\('sharp'\\); Promise.all\\([sharp\\('public/logos/rj.png'\\).webp\\({ quality: 90 }\\).toFile\\('public/logos/rj.webp'\\), sharp\\('public/logos/sp.webp'\\).png\\(\\).toFile\\('public/logos/sp.png'\\)]\\).then\\(r => console.log\\(r\\)\\);\")"
     ]
   }
 }
