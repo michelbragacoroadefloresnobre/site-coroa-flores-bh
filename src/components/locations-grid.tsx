@@ -66,7 +66,7 @@ export function LocationsGrid() {
                         {subregionLocations.map((loc) => (
                           <li key={loc.slug}>
                             <Link
-                              href={`/locais/${loc.slug}`}
+                              href={`/${loc.slug}`}
                               className="block px-3 py-2 text-[13px] text-[#444444] transition-colors hover:bg-[#F5F0EB] hover:text-[#1A1A1A]"
                             >
                               {loc.name}

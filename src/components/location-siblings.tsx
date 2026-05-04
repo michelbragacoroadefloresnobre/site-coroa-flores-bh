@@ -22,7 +22,7 @@ export function LocationSiblings({
           {siblings.map((loc) => (
             <Link
               key={loc.slug}
-              href={`/locais/${loc.slug}`}
+              href={`/${loc.slug}`}
               className="group flex items-center gap-3 rounded-xl border border-[#E8E4DE] bg-white p-4 transition-colors hover:border-[#2D5A3D]/30 hover:bg-[#F5F0EB]/50"
             >
               <MapPin className="size-4 shrink-0 text-[#2D5A3D]" />

@@ -39,6 +39,15 @@ const nextConfig: NextConfig = {
       "@/active-city/regions.json": `${activeCityPath}/regions.json`,
     },
   },
+  async redirects() {
+    return [
+      {
+        source: "/locais/:slug",
+        destination: "/:slug",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

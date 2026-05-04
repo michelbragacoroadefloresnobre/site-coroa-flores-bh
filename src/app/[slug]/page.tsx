@@ -47,12 +47,12 @@ export async function generateMetadata({
     title,
     description,
     alternates: {
-      canonical: `/locais/${location.slug}`,
+      canonical: `/${location.slug}`,
     },
     openGraph: {
       title,
       description,
-      url: `/locais/${location.slug}`,
+      url: `/${location.slug}`,
       siteName: "Coroa de Flores Nobre",
       locale: "pt_BR",
       type: "website",

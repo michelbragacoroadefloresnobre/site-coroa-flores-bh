@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   const locationPages: MetadataRoute.Sitemap = locations.map((location) => ({
-    url: `${BASE_URL}/locais/${location.slug}`,
+    url: `${BASE_URL}/${location.slug}`,
     changeFrequency: "monthly",
     priority: 0.6,
   }))

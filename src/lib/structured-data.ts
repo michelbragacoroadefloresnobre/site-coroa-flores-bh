@@ -21,7 +21,7 @@ export function buildLocalBusinessSchema(location: Location) {
     "@type": "LocalBusiness",
     name: `Coroa de Flores Nobre — ${location.name}`,
     description: location.introduction.slice(0, 200),
-    url: `${BASE_URL}/locais/${location.slug}`,
+    url: `${BASE_URL}/${location.slug}`,
     telephone: city.contact.phoneFormatted,
     email: city.contact.email,
     areaServed: {
@@ -72,7 +72,7 @@ export function buildBreadcrumbSchema(location: Location) {
         "@type": "ListItem",
         position: 3,
         name: location.name,
-        item: `${BASE_URL}/locais/${location.slug}`,
+        item: `${BASE_URL}/${location.slug}`,
       },
     ],
   }

@@ -31,7 +31,13 @@
       "Bash(cp /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/bh.png /home/luizpachioni/projetos/site-coroa-flores-bh/public/logos/rj.png)",
       "Bash(NEXT_PUBLIC_CITY=sp npm run build)",
       "Bash(NEXT_PUBLIC_CITY=rj npm run build)",
-      "Bash(node -e \"const sharp = require\\('sharp'\\); Promise.all\\([sharp\\('public/logos/rj.png'\\).webp\\({ quality: 90 }\\).toFile\\('public/logos/rj.webp'\\), sharp\\('public/logos/sp.webp'\\).png\\(\\).toFile\\('public/logos/sp.png'\\)]\\).then\\(r => console.log\\(r\\)\\);\")"
+      "Bash(node -e \"const sharp = require\\('sharp'\\); Promise.all\\([sharp\\('public/logos/rj.png'\\).webp\\({ quality: 90 }\\).toFile\\('public/logos/rj.webp'\\), sharp\\('public/logos/sp.webp'\\).png\\(\\).toFile\\('public/logos/sp.png'\\)]\\).then\\(r => console.log\\(r\\)\\);\")",
+      "Bash(grep -E \"\\\\.\\(ts|tsx|js\\)$\")",
+      "Bash(grep -E \"^\\(catalogo|contato|locais\\)$\")",
+      "Bash(grep -E \"^\\(api|_next|static|favicon|icon|sitemap|robots|manifest|opengraph\\)$\")",
+      "Bash(mkdir -p src/app/'[slug]')",
+      "Bash(git mv *)",
+      "Bash(rmdir 'src/app/locais/[slug]')"
     ]
   }
 }
