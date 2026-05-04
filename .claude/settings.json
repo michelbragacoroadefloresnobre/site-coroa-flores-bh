@@ -37,7 +37,8 @@
       "Bash(grep -E \"^\\(api|_next|static|favicon|icon|sitemap|robots|manifest|opengraph\\)$\")",
       "Bash(mkdir -p src/app/'[slug]')",
       "Bash(git mv *)",
-      "Bash(rmdir 'src/app/locais/[slug]')"
+      "Bash(rmdir 'src/app/locais/[slug]')",
+      "Bash(node -e ' *)"
     ]
   }
 }

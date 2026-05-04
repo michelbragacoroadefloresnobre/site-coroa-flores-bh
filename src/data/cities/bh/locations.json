@@ -1,6 +1,6 @@
 [
   {
-    "slug": "cemiterio-bonfim-belo-horizonte",
+    "slug": "cemiterio-bonfim",
     "name": "Cemitério do Bonfim",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -427,7 +427,7 @@
     ]
   },
   {
-    "slug": "cemiterio-da-saudade-belo-horizonte",
+    "slug": "cemiterio-da-saudade",
     "name": "Cemitério da Saudade",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -563,7 +563,7 @@
     ]
   },
   {
-    "slug": "funeral-bha-belo-horizonte",
+    "slug": "funeral-bha",
     "name": "Funeral BHA",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -712,7 +712,7 @@
     ]
   },
   {
-    "slug": "cemiterio-da-consolacao-belo-horizonte",
+    "slug": "cemiterio-da-consolacao",
     "name": "Cemitério da Consolação",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -857,7 +857,7 @@
     ]
   },
   {
-    "slug": "cemiterio-israelita-belo-horizonte",
+    "slug": "cemiterio-israelita",
     "name": "Cemitério Israelita",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -994,7 +994,7 @@
     ]
   },
   {
-    "slug": "metropax-belo-horizonte",
+    "slug": "funeraria-metropax",
     "name": "Metropax",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -1138,7 +1138,7 @@
     ]
   },
   {
-    "slug": "funeraria-social-pax-belo-horizonte",
+    "slug": "funeraria-social-pax",
     "name": "Funerária Social Pax Belo Horizonte",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -1276,7 +1276,7 @@
     ]
   },
   {
-    "slug": "funeraria-santa-casa-bh-belo-horizonte",
+    "slug": "funeraria-santa-casa-bh",
     "name": "Funerária Santa Casa BH",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -1555,7 +1555,7 @@
     ]
   },
   {
-    "slug": "funeraria-belo-horizonte",
+    "slug": "funeraria",
     "name": "Funerária Belo Horizonte",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -1697,7 +1697,7 @@
     ]
   },
   {
-    "slug": "funeraria-santa-rosa-belo-horizonte",
+    "slug": "funeraria-santa-rosa",
     "name": "Funerária Santa Rosa",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -1836,7 +1836,7 @@
     ]
   },
   {
-    "slug": "funeraria-prevenir-belo-horizonte",
+    "slug": "funeraria-prevenir",
     "name": "Funerária Prevenir",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -1978,7 +1978,7 @@
     ]
   },
   {
-    "slug": "funeraria-memorial-pax-mg-belo-horizonte",
+    "slug": "funeraria-memorial-pax-mg",
     "name": "Funerária Memorial Pax MG",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2117,7 +2117,7 @@
     ]
   },
   {
-    "slug": "funeraria-diamond-belo-horizonte",
+    "slug": "funeraria-diamond",
     "name": "Funerária Diamond",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2173,7 +2173,7 @@
     ]
   },
   {
-    "slug": "funeraria-e-velorio-cerimonial-raja-belo-horizonte",
+    "slug": "funeraria-e-velorio-cerimonial-raja",
     "name": "Funerária e Velório Cerimonial Raja",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2229,7 +2229,7 @@
     ]
   },
   {
-    "slug": "funeral-house-belo-horizonte",
+    "slug": "funeral-house",
     "name": "Funeral House",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2376,7 +2376,7 @@
     ]
   },
   {
-    "slug": "cemiterio-da-paz-salas-de-velorio-belo-horizonte",
+    "slug": "cemiterio-da-paz-salas-de-velorio",
     "name": "Cemitério da Paz - Salas de Velório",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2513,7 +2513,7 @@
     ]
   },
   {
-    "slug": "memorial-grupo-zelo-belo-horizonte",
+    "slug": "memorial-grupo-zelo",
     "name": "Memorial Grupo Zelo - Assistência Funerária",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2653,7 +2653,7 @@
     ]
   },
   {
-    "slug": "casa-velorio-do-bonfim-belo-horizonte",
+    "slug": "casa-velorio-do-bonfim",
     "name": "Casa Velório do Bonfim",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2790,7 +2790,7 @@
     ]
   },
   {
-    "slug": "funeraria-belo-horizonte-do-carlinhos-belo-horizonte",
+    "slug": "funeraria-belo-horizonte-do-carlinhos",
     "name": "Funerária Belo Horizonte do Carlinhos",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2846,7 +2846,7 @@
     ]
   },
   {
-    "slug": "pax-plan-belo-horizonte",
+    "slug": "pax-plan",
     "name": "Pax Plan",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2902,7 +2902,7 @@
     ]
   },
   {
-    "slug": "associpax-funeraria-belo-horizonte",
+    "slug": "associpax-funeraria",
     "name": "Associpax Funerária",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -2958,7 +2958,7 @@
     ]
   },
   {
-    "slug": "funeraria-pax-unidas-belo-horizonte",
+    "slug": "funeraria-pax-unidas",
     "name": "Funerária Pax Unidas",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -3095,7 +3095,7 @@
     ]
   },
   {
-    "slug": "funeraria-bh-minas-belo-horizonte",
+    "slug": "funeraria-bh-minas",
     "name": "Funerária BH Minas",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -3235,7 +3235,7 @@
     ]
   },
   {
-    "slug": "cemiterio-parque-bosque-da-esperanca-belo-horizonte",
+    "slug": "cemiterio-parque-bosque-da-esperanca",
     "name": "Cemitério Parque Bosque da Esperança",
     "city": "Belo Horizonte",
     "uf": "MG",
@@ -3380,7 +3380,7 @@
     ]
   },
   {
-    "slug": "cemiterio-bom-jesus-contagem",
+    "slug": "cemiterio-bom-jesus",
     "name": "Cemitério Bom Jesus",
     "city": "Contagem",
     "uf": "MG",
@@ -3435,7 +3435,7 @@
     ]
   },
   {
-    "slug": "parque-renascer-cemiterio-e-crematorio-contagem",
+    "slug": "cemiterio-parque-renascer",
     "name": "Parque Renascer Cemitério e Crematório",
     "city": "Contagem",
     "uf": "MG",
@@ -3490,7 +3490,7 @@
     ]
   },
   {
-    "slug": "cemiterio-do-retiro-contagem",
+    "slug": "cemiterio-do-retiro",
     "name": "Cemitério do Retiro",
     "city": "Contagem",
     "uf": "MG",
@@ -3545,7 +3545,7 @@
     ]
   },
   {
-    "slug": "funeraria-pax-life-contagem",
+    "slug": "funeraria-pax-life",
     "name": "Funerária Pax Life",
     "city": "Contagem",
     "uf": "MG",
@@ -3600,7 +3600,7 @@
     ]
   },
   {
-    "slug": "funeraria-santa-terezinha-contagem",
+    "slug": "funeraria-santa-terezinha",
     "name": "Funerária Santa Terezinha",
     "city": "Contagem",
     "uf": "MG",
@@ -3655,7 +3655,7 @@
     ]
   },
   {
-    "slug": "funeraria-contagem-contagem",
+    "slug": "funeraria-contagem",
     "name": "Funerária Contagem",
     "city": "Contagem",
     "uf": "MG",
@@ -3710,7 +3710,7 @@
     ]
   },
   {
-    "slug": "velorio-jk-contagem",
+    "slug": "velorio-jk",
     "name": "Velório JK",
     "city": "Contagem",
     "uf": "MG",
@@ -3765,7 +3765,7 @@
     ]
   },
   {
-    "slug": "grupo-zelo-memorial-contagem-contagem",
+    "slug": "grupo-zelo-memorial-contagem",
     "name": "Grupo Zelo - Memorial Contagem",
     "city": "Contagem",
     "uf": "MG",
@@ -3820,7 +3820,7 @@
     ]
   },
   {
-    "slug": "metropax-eldorado-contagem",
+    "slug": "metropax-eldorado",
     "name": "Metropax Eldorado",
     "city": "Contagem",
     "uf": "MG",
@@ -3875,7 +3875,7 @@
     ]
   },
   {
-    "slug": "funeraria-imperial-contagem",
+    "slug": "funeraria-imperial",
     "name": "Funerária Imperial",
     "city": "Contagem",
     "uf": "MG",
@@ -3985,7 +3985,7 @@
     ]
   },
   {
-    "slug": "cemiterio-nossa-senhora-do-carmo-betim",
+    "slug": "cemiterio-nossa-senhora-do-carmo",
     "name": "Cemitério Nossa Senhora do Carmo",
     "city": "Betim",
     "uf": "MG",
@@ -4040,7 +4040,7 @@
     ]
   },
   {
-    "slug": "jardins-cemiterio-parque-betim",
+    "slug": "jardins-cemiterio-parque",
     "name": "Jardins Cemitério Parque",
     "city": "Betim",
     "uf": "MG",
@@ -4095,7 +4095,7 @@
     ]
   },
   {
-    "slug": "cemiterio-parque-retiro-da-saudade-betim",
+    "slug": "cemiterio-parque-retiro-da-saudade",
     "name": "Cemitério Parque Retiro da Saudade",
     "city": "Betim",
     "uf": "MG",
@@ -4150,7 +4150,7 @@
     ]
   },
   {
-    "slug": "funeraria-santa-casa-de-betim-betim",
+    "slug": "funeraria-santa-casa-de-betim",
     "name": "Funerária Santa Casa de Betim",
     "city": "Betim",
     "uf": "MG",
@@ -4205,7 +4205,7 @@
     ]
   },
   {
-    "slug": "funeraria-jardins-betim",
+    "slug": "funeraria-jardins",
     "name": "Funerária Jardins",
     "city": "Betim",
     "uf": "MG",
@@ -4260,7 +4260,7 @@
     ]
   },
   {
-    "slug": "metropax-unidade-betim-betim",
+    "slug": "metropax-unidade-betim",
     "name": "Metropax - Unidade Betim",
     "city": "Betim",
     "uf": "MG",
@@ -4315,7 +4315,7 @@
     ]
   },
   {
-    "slug": "grupo-zelo-unidade-betim-betim",
+    "slug": "grupo-zelo-unidade-betim",
     "name": "Grupo Zelo - Unidade Betim",
     "city": "Betim",
     "uf": "MG",
@@ -4370,7 +4370,7 @@
     ]
   },
   {
-    "slug": "prevenir-assistencial-betim-betim",
+    "slug": "prevenir-assistencial-betim",
     "name": "Prevenir Assistencial - Betim",
     "city": "Betim",
     "uf": "MG",
@@ -4425,7 +4425,7 @@
     ]
   },
   {
-    "slug": "funeraria-central-do-brasil-ibirite",
+    "slug": "funeraria-central-do-brasil",
     "name": "Funerária Central do Brasil",
     "city": "Ibirité",
     "uf": "MG",
@@ -4477,7 +4477,7 @@
     ]
   },
   {
-    "slug": "cemiterio-do-canal-ibirite",
+    "slug": "cemiterio-do-canal",
     "name": "Cemitério do Canal",
     "city": "Ibirité",
     "uf": "MG",
@@ -4529,7 +4529,7 @@
     ]
   },
   {
-    "slug": "cemiterio-paroquial-das-merces-ibirite",
+    "slug": "cemiterio-paroquial-das-merces",
     "name": "Cemitério Paroquial das Mercês",
     "city": "Ibirité",
     "uf": "MG",
@@ -4581,7 +4581,7 @@
     ]
   },
   {
-    "slug": "memorial-ibirite-grupo-zelo-ibirite",
+    "slug": "memorial-ibirite-grupo-zelo",
     "name": "Memorial Ibirité - Grupo Zelo",
     "city": "Ibirité",
     "uf": "MG",
@@ -4633,7 +4633,7 @@
     ]
   },
   {
-    "slug": "funeraria-padre-liberio-ibirite",
+    "slug": "funeraria-padre-liberio",
     "name": "Funerária Padre Libério",
     "city": "Ibirité",
     "uf": "MG",
@@ -4685,7 +4685,7 @@
     ]
   },
   {
-    "slug": "lebos-black-house-nova-lima",
+    "slug": "lebos-black-house",
     "name": "Lebo's Black House",
     "city": "Nova Lima",
     "uf": "MG",
@@ -4789,7 +4789,7 @@
     ]
   },
   {
-    "slug": "monte-santo-cemiterio-parque-e-crematorio-ribeirao-das-neves",
+    "slug": "monte-santo-cemiterio-parque-e-crematorio",
     "name": "Monte Santo Cemitério Parque e Crematório",
     "city": "Ribeirão das Neves",
     "uf": "MG",
@@ -4893,7 +4893,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-justinopolis-ribeirao-das-neves",
+    "slug": "cemiterio-municipal-de-justinopolis",
     "name": "Cemitério Municipal de Justinópolis",
     "city": "Ribeirão das Neves",
     "uf": "MG",
@@ -4945,7 +4945,7 @@
     ]
   },
   {
-    "slug": "funeraria-macpela-assistencial-macpax-ribeirao-das-neves",
+    "slug": "funeraria-macpela-assistencial-macpax",
     "name": "Funerária Macpela Assistencial Macpax",
     "city": "Ribeirão das Neves",
     "uf": "MG",
@@ -5049,7 +5049,7 @@
     ]
   },
   {
-    "slug": "prevenir-assistencial-justinopolis-ribeirao-das-neves",
+    "slug": "prevenir-assistencial-justinopolis",
     "name": "Prevenir Assistencial - Justinópolis",
     "city": "Ribeirão das Neves",
     "uf": "MG",
@@ -5101,7 +5101,7 @@
     ]
   },
   {
-    "slug": "grupo-zelo-unidade-funeraria-ribeirao-das-neves",
+    "slug": "grupo-zelo-unidade-funeraria",
     "name": "Grupo Zelo - Unidade Funerária",
     "city": "Ribeirão das Neves",
     "uf": "MG",
@@ -5153,7 +5153,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-sabara-sabara",
+    "slug": "cemiterio-de-sabara",
     "name": "Cemitério de Sabará",
     "city": "Sabará",
     "uf": "MG",
@@ -5205,7 +5205,7 @@
     ]
   },
   {
-    "slug": "cemiterio-do-carmo-sabara",
+    "slug": "cemiterio-do-carmo",
     "name": "Cemitério do Carmo",
     "city": "Sabará",
     "uf": "MG",
@@ -5257,7 +5257,7 @@
     ]
   },
   {
-    "slug": "cemiterio-cristo-luz-sabara",
+    "slug": "cemiterio-cristo-luz",
     "name": "Cemitério Cristo Luz",
     "city": "Sabará",
     "uf": "MG",
@@ -5361,7 +5361,7 @@
     ]
   },
   {
-    "slug": "metropax-unidade-sabara-sabara",
+    "slug": "metropax-unidade-sabara",
     "name": "Metropax - Unidade Sabará",
     "city": "Sabará",
     "uf": "MG",
@@ -5413,7 +5413,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-nossa-senhora-do-carmo-santa-luzia",
+    "slug": "cemiterio-municipal-nossa-senhora-do-carmo",
     "name": "Cemitério Municipal Nossa Senhora do Carmo",
     "city": "Santa Luzia",
     "uf": "MG",
@@ -5465,7 +5465,7 @@
     ]
   },
   {
-    "slug": "cemiterio-pinhoes-santa-luzia",
+    "slug": "cemiterio-pinhoes",
     "name": "Cemitério Pinhões",
     "city": "Santa Luzia",
     "uf": "MG",
@@ -5517,7 +5517,7 @@
     ]
   },
   {
-    "slug": "funeraria-designos-santa-luzia",
+    "slug": "funeraria-designos",
     "name": "Funerária Designos",
     "city": "Santa Luzia",
     "uf": "MG",
@@ -5569,7 +5569,7 @@
     ]
   },
   {
-    "slug": "metropax-unidade-santa-luzia-santa-luzia",
+    "slug": "metropax-unidade-santa-luzia",
     "name": "Metropax - Unidade Santa Luzia",
     "city": "Santa Luzia",
     "uf": "MG",
@@ -5621,7 +5621,7 @@
     ]
   },
   {
-    "slug": "grupo-zelo-santa-luzia-santa-luzia",
+    "slug": "grupo-zelo-santa-luzia",
     "name": "Grupo Zelo - Santa Luzia",
     "city": "Santa Luzia",
     "uf": "MG",
@@ -5673,7 +5673,7 @@
     ]
   },
   {
-    "slug": "robertim-funeraria-santa-luzia",
+    "slug": "robertim-funeraria",
     "name": "Robertim Funerária",
     "city": "Santa Luzia",
     "uf": "MG",
@@ -5777,7 +5777,7 @@
     ]
   },
   {
-    "slug": "cemiterio-belo-vale-santa-luzia",
+    "slug": "cemiterio-belo-vale",
     "name": "Cemitério Belo Vale",
     "city": "Santa Luzia",
     "uf": "MG",
@@ -5829,7 +5829,7 @@
     ]
   },
   {
-    "slug": "cemiterio-velho-de-vespasiano-vespasiano",
+    "slug": "cemiterio-velho-de-vespasiano",
     "name": "Cemitério Velho de Vespasiano",
     "city": "Vespasiano",
     "uf": "MG",
@@ -5881,7 +5881,7 @@
     ]
   },
   {
-    "slug": "cemiterio-antigo-de-vespasiano-vespasiano",
+    "slug": "cemiterio-antigo-de-vespasiano",
     "name": "Cemitério Antigo de Vespasiano",
     "city": "Vespasiano",
     "uf": "MG",
@@ -5933,7 +5933,7 @@
     ]
   },
   {
-    "slug": "cemiterio-do-lapinha-lagoa-santa",
+    "slug": "cemiterio-do-lapinha",
     "name": "Cemitério do Lapinha",
     "city": "Lagoa Santa",
     "uf": "MG",
@@ -5985,7 +5985,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-campo-da-saudade-lagoa-santa",
+    "slug": "cemiterio-municipal-campo-da-saudade",
     "name": "Cemitério Municipal Campo da Saudade",
     "city": "Lagoa Santa",
     "uf": "MG",
@@ -6037,7 +6037,7 @@
     ]
   },
   {
-    "slug": "funeraria-remocao-colina-lagoa-santa",
+    "slug": "funeraria-remocao-colina",
     "name": "Funerária Remoção Colina",
     "city": "Lagoa Santa",
     "uf": "MG",
@@ -6089,7 +6089,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-juiz-de-fora-juiz-de-fora",
+    "slug": "cemiterio-municipal-de-juiz-de-fora",
     "name": "Cemitério Municipal de Juiz de Fora",
     "city": "Juiz de Fora",
     "uf": "MG",
@@ -6141,7 +6141,7 @@
     ]
   },
   {
-    "slug": "cemiterio-parque-da-saudade-juiz-de-fora",
+    "slug": "cemiterio-parque-da-saudade",
     "name": "Cemitério Parque da Saudade",
     "city": "Juiz de Fora",
     "uf": "MG",
@@ -6193,7 +6193,7 @@
     ]
   },
   {
-    "slug": "cemiterio-campo-do-bom-pastor-uberlandia",
+    "slug": "cemiterio-campo-do-bom-pastor",
     "name": "Cemitério Campo do Bom Pastor",
     "city": "Uberlândia",
     "uf": "MG",
@@ -6245,7 +6245,7 @@
     ]
   },
   {
-    "slug": "funeraria-angelo-cunha-uberlandia",
+    "slug": "funeraria-angelo-cunha",
     "name": "Funerária Angelo Cunha",
     "city": "Uberlândia",
     "uf": "MG",
@@ -6297,7 +6297,7 @@
     ]
   },
   {
-    "slug": "funeraria-paz-universal-uberlandia",
+    "slug": "funeraria-paz-universal",
     "name": "Funerária Paz Universal",
     "city": "Uberlândia",
     "uf": "MG",

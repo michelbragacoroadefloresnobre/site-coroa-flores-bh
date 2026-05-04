@@ -1,6 +1,6 @@
 [
   {
-    "slug": "cemiterio-de-sao-joao-batista-rio-de-janeiro",
+    "slug": "cemiterio-de-sao-joao-batista",
     "name": "Cemitério de São João Batista",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -56,7 +56,7 @@
     ]
   },
   {
-    "slug": "crematorio-e-cemiterio-jardim-da-saudade-sulacap-rio-de-janeiro",
+    "slug": "crematorio-e-cemiterio-jardim-da-saudade-sulacap",
     "name": "Crematório e Cemitério Jardim da Saudade - Sulacap",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "slug": "crematorio-e-cemiterio-vertical-da-penitencia-rio-de-janeiro",
+    "slug": "crematorio-e-cemiterio-vertical-da-penitencia",
     "name": "Crematório e Cemitério Vertical da Penitência",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -168,7 +168,7 @@
     ]
   },
   {
-    "slug": "cemiterio-dos-ingleses-rio-de-janeiro",
+    "slug": "cemiterio-dos-ingleses",
     "name": "Cemitério dos Ingleses",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -224,7 +224,7 @@
     ]
   },
   {
-    "slug": "cemiterio-necropole-do-campo-santo-vila-rio-rio-de-janeiro",
+    "slug": "cemiterio-necropole-do-campo-santo-vila-rio",
     "name": "Cemitério Necrópole do Campo Santo (Vila Rio)",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -280,7 +280,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-sao-francisco-xavier-cemiterio-do-caju-rio-de-janeiro",
+    "slug": "cemiterio-de-sao-francisco-xavier-cemiterio-do-caju",
     "name": "Cemitério de São Francisco Xavier (Cemitério do Caju)",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -336,7 +336,7 @@
     ]
   },
   {
-    "slug": "cemiterio-jardim-da-saudade-paciencia-rio-de-janeiro",
+    "slug": "cemiterio-jardim-da-saudade-paciencia",
     "name": "Cemitério Jardim da Saudade - Paciência",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -392,7 +392,7 @@
     ]
   },
   {
-    "slug": "cemiterio-ricardo-de-albuquerque-rio-de-janeiro",
+    "slug": "cemiterio-ricardo-de-albuquerque",
     "name": "Cemitério Ricardo de Albuquerque",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -448,7 +448,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-s-francisco-de-paula-cemiterio-do-catumbi-rio-de-janeiro",
+    "slug": "cemiterio-de-s-francisco-de-paula-cemiterio-do-catumbi",
     "name": "Cemitério de S. Francisco de Paula (Cemitério do Catumbi)",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "slug": "assistencia-funeral-santa-casa-24-horas-rio-de-janeiro",
+    "slug": "assistencia-funeral-santa-casa-24-horas",
     "name": "Assistência Funeral Santa Casa 24 Horas",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -560,7 +560,7 @@
     ]
   },
   {
-    "slug": "funeraria-sao-geraldo-rio-de-janeiro",
+    "slug": "funeraria-sao-geraldo",
     "name": "Funerária São Geraldo",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -616,7 +616,7 @@
     ]
   },
   {
-    "slug": "funeraria-botafogo-rio-de-janeiro",
+    "slug": "funeraria-botafogo",
     "name": "Funerária Botafogo",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -672,7 +672,7 @@
     ]
   },
   {
-    "slug": "santa-casa-agencia-meier-rio-de-janeiro",
+    "slug": "santa-casa-agencia-meier",
     "name": "Santa Casa Agência Méier",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -728,7 +728,7 @@
     ]
   },
   {
-    "slug": "funeraria-praca-da-bandeira-rio-de-janeiro",
+    "slug": "funeraria-praca-da-bandeira",
     "name": "Funerária Praça da Bandeira",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -784,7 +784,7 @@
     ]
   },
   {
-    "slug": "assistencia-funeral-salomao-lisboa-rio-de-janeiro",
+    "slug": "assistencia-funeral-salomao-lisboa",
     "name": "Assistência Funeral Salomão Lisboa",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -840,7 +840,7 @@
     ]
   },
   {
-    "slug": "santa-casa-de-copacabana-rio-de-janeiro",
+    "slug": "santa-casa-de-copacabana",
     "name": "Santa Casa de Copacabana",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -896,7 +896,7 @@
     ]
   },
   {
-    "slug": "funeraria-brasil-pax-rio-de-janeiro",
+    "slug": "funeraria-brasil-pax",
     "name": "Funerária Brasil Pax",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1064,7 +1064,7 @@
     ]
   },
   {
-    "slug": "funeraria-phoenix-rio-de-janeiro",
+    "slug": "funeraria-phoenix",
     "name": "Funerária Phoenix",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1120,7 +1120,7 @@
     ]
   },
   {
-    "slug": "funeraria-reviver-24h-cemiterio-sao-francisco-xavier-caju-rio-de-janeiro",
+    "slug": "funeraria-reviver-24h-cemiterio-sao-francisco-xavier-caju",
     "name": "Funerária Reviver 24h - Cemitério São Francisco Xavier (Caju)",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1176,7 +1176,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-inhauma-rio-de-janeiro",
+    "slug": "cemiterio-de-inhauma",
     "name": "Cemitério de Inhaúma",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1232,7 +1232,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-iraja-rio-de-janeiro",
+    "slug": "cemiterio-de-iraja",
     "name": "Cemitério de Irajá",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1288,7 +1288,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-mesquita-rio-de-janeiro",
+    "slug": "cemiterio-de-mesquita",
     "name": "Cemitério de Mesquita",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1344,7 +1344,7 @@
     ]
   },
   {
-    "slug": "cemiterio-do-pechincha-rio-de-janeiro",
+    "slug": "cemiterio-do-pechincha",
     "name": "Cemitério do Pechincha",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1400,7 +1400,7 @@
     ]
   },
   {
-    "slug": "cemiterio-memorial-do-carmo-rio-de-janeiro",
+    "slug": "cemiterio-memorial-do-carmo",
     "name": "Cemitério Memorial do Carmo",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1456,7 +1456,7 @@
     ]
   },
   {
-    "slug": "cemiterio-e-crematorio-sao-francisco-xavier-rio-de-janeiro",
+    "slug": "cemiterio-e-crematorio-sao-francisco-xavier",
     "name": "Cemitério e Crematório São Francisco Xavier",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1568,7 +1568,7 @@
     ]
   },
   {
-    "slug": "cemiterio-murundu-rio-de-janeiro",
+    "slug": "cemiterio-murundu",
     "name": "Cemitério Murundu",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1624,7 +1624,7 @@
     ]
   },
   {
-    "slug": "cemiterio-comunal-israelita-rio-de-janeiro",
+    "slug": "cemiterio-comunal-israelita",
     "name": "Cemitério Comunal Israelita",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1680,7 +1680,7 @@
     ]
   },
   {
-    "slug": "cemiterio-campo-grande-rio-pax-rio-de-janeiro",
+    "slug": "cemiterio-campo-grande-rio-pax",
     "name": "Cemitério Campo Grande - Rio Pax",
     "city": "Rio de Janeiro",
     "uf": "RJ",
@@ -1736,7 +1736,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-sao-miguel-sao-goncalo",
+    "slug": "cemiterio-municipal-sao-miguel",
     "name": "Cemitério Municipal São Miguel",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -1848,7 +1848,7 @@
     ]
   },
   {
-    "slug": "cemiterio-do-pacheco-sao-goncalo",
+    "slug": "cemiterio-do-pacheco",
     "name": "Cemitério do Pacheco",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -1904,7 +1904,7 @@
     ]
   },
   {
-    "slug": "cemiterio-israelita-de-sao-goncalo-sao-goncalo",
+    "slug": "cemiterio-israelita-de-sao-goncalo",
     "name": "Cemitério Israelita de São Gonçalo",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -1960,7 +1960,7 @@
     ]
   },
   {
-    "slug": "memorial-parque-nycteroy-sao-goncalo",
+    "slug": "memorial-parque-nycteroy",
     "name": "Memorial Parque Nycteroy",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2016,7 +2016,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-ipiiba-sao-goncalo",
+    "slug": "cemiterio-municipal-de-ipiiba",
     "name": "Cemitério Municipal de Ipiiba",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2072,7 +2072,7 @@
     ]
   },
   {
-    "slug": "recanto-dos-amigos-sao-goncalo",
+    "slug": "recanto-dos-amigos",
     "name": "Recanto dos Amigos",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2128,7 +2128,7 @@
     ]
   },
   {
-    "slug": "lopes-e-regina-corretores-parque-da-paz-sao-goncalo",
+    "slug": "lopes-e-regina-corretores-parque-da-paz",
     "name": "Lopes e Regina Corretores Parque da Paz",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2184,7 +2184,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-sao-goncalo-sao-goncalo",
+    "slug": "cemiterio-municipal-de-sao-goncalo",
     "name": "Cemitério Municipal de São Gonçalo",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2240,7 +2240,7 @@
     ]
   },
   {
-    "slug": "funeraria-e-capela-nossa-senhora-de-santanna-sao-goncalo",
+    "slug": "funeraria-e-capela-nossa-senhora-de-santanna",
     "name": "Funerária e Capela Nossa Senhora de Santanna",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2296,7 +2296,7 @@
     ]
   },
   {
-    "slug": "funeraria-parque-da-paz-sao-goncalo",
+    "slug": "funeraria-parque-da-paz",
     "name": "Funerária Parque da Paz",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2352,7 +2352,7 @@
     ]
   },
   {
-    "slug": "funeraria-memorial-pax-sao-goncalo",
+    "slug": "funeraria-memorial-pax",
     "name": "Funerária Memorial Pax",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2408,7 +2408,7 @@
     ]
   },
   {
-    "slug": "funeraria-e-floricultura-shallon-sao-goncalo",
+    "slug": "funeraria-e-floricultura-shallon",
     "name": "Funerária e Floricultura Shallon",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2464,7 +2464,7 @@
     ]
   },
   {
-    "slug": "capela-funeraria-nova-sao-goncalo-sao-goncalo",
+    "slug": "capela-funeraria-nova-sao-goncalo",
     "name": "Capela Funerária Nova São Gonçalo",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2520,7 +2520,7 @@
     ]
   },
   {
-    "slug": "capela-funeraria-porto-da-pedra-joao-barbudo-sao-goncalo",
+    "slug": "capela-funeraria-porto-da-pedra-joao-barbudo",
     "name": "Capela Funerária Porto da Pedra João Barbudo",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2576,7 +2576,7 @@
     ]
   },
   {
-    "slug": "funeraria-sao-joao-batista-oasp-plus-vida-sao-goncalo",
+    "slug": "funeraria-sao-joao-batista-oasp-plus-vida",
     "name": "Funerária São João Batista & Oasp Plus-Vida",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2632,7 +2632,7 @@
     ]
   },
   {
-    "slug": "funeraria-memorial-da-paz-sao-goncalo",
+    "slug": "funeraria-memorial-da-paz",
     "name": "Funerária Memorial da Paz",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2688,7 +2688,7 @@
     ]
   },
   {
-    "slug": "funeraria-sefas-sao-goncalo",
+    "slug": "funeraria-sefas",
     "name": "Funerária SEFAS",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2744,7 +2744,7 @@
     ]
   },
   {
-    "slug": "funeraria-santa-casa-do-pacheco-sao-goncalo",
+    "slug": "funeraria-santa-casa-do-pacheco",
     "name": "Funerária Santa Casa do Pacheco",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2800,7 +2800,7 @@
     ]
   },
   {
-    "slug": "capela-sao-miguel-da-paz-sao-goncalo",
+    "slug": "capela-sao-miguel-da-paz",
     "name": "Capela São Miguel da Paz",
     "city": "São Gonçalo",
     "uf": "RJ",
@@ -2856,7 +2856,7 @@
     ]
   },
   {
-    "slug": "memorial-campo-da-paz-crematorio-e-cemiterio-ecologico-niteroi",
+    "slug": "memorial-campo-da-paz-crematorio-e-cemiterio-ecologico",
     "name": "Memorial Campo da Paz - Crematório e Cemitério Ecológico",
     "city": "Niterói",
     "uf": "RJ",
@@ -2912,7 +2912,7 @@
     ]
   },
   {
-    "slug": "cemiterio-marui-niteroi",
+    "slug": "cemiterio-marui",
     "name": "Cemitério Maruí",
     "city": "Niterói",
     "uf": "RJ",
@@ -2968,7 +2968,7 @@
     ]
   },
   {
-    "slug": "cemiterio-sao-lazaro-itaipu-niteroi",
+    "slug": "cemiterio-sao-lazaro-itaipu",
     "name": "Cemitério São Lázaro - Itaipu",
     "city": "Niterói",
     "uf": "RJ",
@@ -3024,7 +3024,7 @@
     ]
   },
   {
-    "slug": "cemiterio-arquiconfraria-nossa-senhora-da-conceicao-niteroi",
+    "slug": "cemiterio-arquiconfraria-nossa-senhora-da-conceicao",
     "name": "Cemitério Arquiconfraria Nossa Senhora da Conceição",
     "city": "Niterói",
     "uf": "RJ",
@@ -3080,7 +3080,7 @@
     ]
   },
   {
-    "slug": "cemiterio-da-irmandade-do-santissimo-sacramento-niteroi",
+    "slug": "cemiterio-da-irmandade-do-santissimo-sacramento",
     "name": "Cemitério da Irmandade do Santíssimo Sacramento",
     "city": "Niterói",
     "uf": "RJ",
@@ -3136,7 +3136,7 @@
     ]
   },
   {
-    "slug": "cemiterio-sao-francisco-xavier-niteroi",
+    "slug": "cemiterio-sao-francisco-xavier",
     "name": "Cemitério São Francisco Xavier",
     "city": "Niterói",
     "uf": "RJ",
@@ -3192,7 +3192,7 @@
     ]
   },
   {
-    "slug": "funeraria-niteroi-todas-as-unidades-niteroi",
+    "slug": "funeraria-niteroi-todas-as-unidades",
     "name": "Funerária NITERÓI - Todas as unidades",
     "city": "Niterói",
     "uf": "RJ",
@@ -3248,7 +3248,7 @@
     ]
   },
   {
-    "slug": "assistencia-funeraria-niteroi-niteroi",
+    "slug": "assistencia-funeraria-niteroi",
     "name": "Assistência Funerária Niterói",
     "city": "Niterói",
     "uf": "RJ",
@@ -3304,7 +3304,7 @@
     ]
   },
   {
-    "slug": "assistencia-funeral-rio-pax-niteroi",
+    "slug": "assistencia-funeral-rio-pax",
     "name": "Assistência Funeral Rio Pax",
     "city": "Niterói",
     "uf": "RJ",
@@ -3416,7 +3416,7 @@
     ]
   },
   {
-    "slug": "capela-velorio-nossa-senhora-da-conceicao-niteroi",
+    "slug": "capela-velorio-nossa-senhora-da-conceicao",
     "name": "Capela Velório Nossa Senhora da Conceição",
     "city": "Niterói",
     "uf": "RJ",
@@ -3472,7 +3472,7 @@
     ]
   },
   {
-    "slug": "funeraria-santa-casa-de-niteroi-niteroi",
+    "slug": "funeraria-santa-casa-de-niteroi",
     "name": "Funerária Santa Casa de Niterói",
     "city": "Niterói",
     "uf": "RJ",
@@ -3528,7 +3528,7 @@
     ]
   },
   {
-    "slug": "funeraria-acacia-assistencial-niteroi",
+    "slug": "funeraria-acacia-assistencial",
     "name": "Funerária Acácia Assistencial",
     "city": "Niterói",
     "uf": "RJ",
@@ -3584,7 +3584,7 @@
     ]
   },
   {
-    "slug": "funeraria-flores-da-camelia-niteroi",
+    "slug": "funeraria-flores-da-camelia",
     "name": "Funerária Flores da Camélia",
     "city": "Niterói",
     "uf": "RJ",
@@ -3640,7 +3640,7 @@
     ]
   },
   {
-    "slug": "funeraria-bom-jesus-niteroi",
+    "slug": "funeraria-bom-jesus",
     "name": "Funerária Bom Jesus",
     "city": "Niterói",
     "uf": "RJ",
@@ -3696,7 +3696,7 @@
     ]
   },
   {
-    "slug": "funeraria-nova-dimensao-niteroi",
+    "slug": "funeraria-nova-dimensao",
     "name": "Funerária Nova Dimensão",
     "city": "Niterói",
     "uf": "RJ",
@@ -3752,7 +3752,7 @@
     ]
   },
   {
-    "slug": "funeraria-paraiso-niteroi",
+    "slug": "funeraria-paraiso",
     "name": "Funerária Paraíso",
     "city": "Niterói",
     "uf": "RJ",
@@ -3808,7 +3808,7 @@
     ]
   },
   {
-    "slug": "funeraria-celestial-pax-niteroi",
+    "slug": "funeraria-celestial-pax",
     "name": "Funerária Celestial Pax",
     "city": "Niterói",
     "uf": "RJ",
@@ -3864,7 +3864,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-nossa-senhora-do-belem-duque-de-caxias",
+    "slug": "cemiterio-de-nossa-senhora-do-belem",
     "name": "Cemitério de Nossa Senhora do Belém",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -3920,7 +3920,7 @@
     ]
   },
   {
-    "slug": "cemiterio-nossa-senhora-das-gracas-duque-de-caxias",
+    "slug": "cemiterio-nossa-senhora-das-gracas",
     "name": "Cemitério Nossa Senhora das Graças",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -3976,7 +3976,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-nossa-senhora-do-pilar-duque-de-caxias",
+    "slug": "cemiterio-municipal-de-nossa-senhora-do-pilar",
     "name": "Cemitério Municipal de Nossa Senhora do Pilar",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -4032,7 +4032,7 @@
     ]
   },
   {
-    "slug": "cemiterio-nossa-senhora-de-fatima-taquara-duque-de-caxias",
+    "slug": "cemiterio-nossa-senhora-de-fatima-taquara",
     "name": "Cemitério Nossa Senhora de Fátima (Taquara)",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -4144,7 +4144,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-xerem-duque-de-caxias",
+    "slug": "cemiterio-de-xerem",
     "name": "Cemiterio de Xerém",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -4200,7 +4200,7 @@
     ]
   },
   {
-    "slug": "assistencia-familiar-rio-pax-duque-de-caxias",
+    "slug": "assistencia-familiar-rio-pax",
     "name": "Assistência Familiar Rio Pax",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -4256,7 +4256,7 @@
     ]
   },
   {
-    "slug": "funeraria-nossa-senhora-da-anunciacao-duque-de-caxias",
+    "slug": "funeraria-nossa-senhora-da-anunciacao",
     "name": "Funerária Nossa Senhora da Anunciação",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -4424,7 +4424,7 @@
     ]
   },
   {
-    "slug": "cemiterio-publico-de-duque-de-caxias-duque-de-caxias",
+    "slug": "cemiterio-publico-de-duque-de-caxias",
     "name": "Cemitério Público de Duque de Caxias",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -4480,7 +4480,7 @@
     ]
   },
   {
-    "slug": "funeraria-santa-casa-duque-de-caxias-duque-de-caxias",
+    "slug": "funeraria-santa-casa-duque-de-caxias",
     "name": "Funerária Santa Casa Duque de Caxias",
     "city": "Duque de Caxias",
     "uf": "RJ",
@@ -4536,7 +4536,7 @@
     ]
   },
   {
-    "slug": "cemiterio-dos-escravos-nova-iguacu-nova-iguacu",
+    "slug": "cemiterio-dos-escravos-nova-iguacu",
     "name": "Cemitério dos Escravos - Nova Iguaçu",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -4592,7 +4592,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-carlos-sampaio-nova-iguacu",
+    "slug": "cemiterio-de-carlos-sampaio",
     "name": "CEMITÉRIO DE CARLOS SAMPAIO",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -4648,7 +4648,7 @@
     ]
   },
   {
-    "slug": "cemiterio-da-freguesia-da-piedade-do-iguacu-nova-iguacu",
+    "slug": "cemiterio-da-freguesia-da-piedade-do-iguacu",
     "name": "Cemitério da Freguesia da Piedade do Iguaçu",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -4704,7 +4704,7 @@
     ]
   },
   {
-    "slug": "donlee-assistencial-nova-iguacu",
+    "slug": "donlee-assistencial",
     "name": "Donlee Assistencial",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -4760,7 +4760,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-nova-iguacu-nova-iguacu",
+    "slug": "cemiterio-de-nova-iguacu",
     "name": "Cemitério de Nova Iguaçu",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -4816,7 +4816,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-marapicu-nova-iguacu",
+    "slug": "cemiterio-de-marapicu",
     "name": "Cemitério de Marapicu",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -4872,7 +4872,7 @@
     ]
   },
   {
-    "slug": "funeraria-grupo-sifaz-nova-iguacu",
+    "slug": "funeraria-grupo-sifaz",
     "name": "Funerária Grupo Sifaz",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -4928,7 +4928,7 @@
     ]
   },
   {
-    "slug": "funeraria-pax-sao-salvador-nova-iguacu",
+    "slug": "funeraria-pax-sao-salvador",
     "name": "Funerária Pax São Salvador",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -4984,7 +4984,7 @@
     ]
   },
   {
-    "slug": "funeraria-sao-salvador-nova-iguacu",
+    "slug": "funeraria-sao-salvador",
     "name": "Funerária São Salvador",
     "city": "Nova Iguaçu",
     "uf": "RJ",
@@ -5040,7 +5040,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-belford-roxo-belford-roxo",
+    "slug": "cemiterio-de-belford-roxo",
     "name": "Cemitério de Belford Roxo",
     "city": "Belford Roxo",
     "uf": "RJ",
@@ -5096,7 +5096,7 @@
     ]
   },
   {
-    "slug": "cemiterio-israelita-de-belford-roxo-chevra-kadisha-belford-roxo",
+    "slug": "cemiterio-israelita-de-belford-roxo-chevra-kadisha",
     "name": "Cemitério Israelita de Belford Roxo (Chevra Kadisha)",
     "city": "Belford Roxo",
     "uf": "RJ",
@@ -5152,7 +5152,7 @@
     ]
   },
   {
-    "slug": "rio-pax-unidade-belford-roxo-belford-roxo",
+    "slug": "rio-pax-unidade-belford-roxo",
     "name": "Rio Pax Unidade Belford Roxo",
     "city": "Belford Roxo",
     "uf": "RJ",
@@ -5208,7 +5208,7 @@
     ]
   },
   {
-    "slug": "funeraria-renascer-2001-belford-roxo",
+    "slug": "funeraria-renascer-2001",
     "name": "Funerária Renascer 2001",
     "city": "Belford Roxo",
     "uf": "RJ",
@@ -5264,7 +5264,7 @@
     ]
   },
   {
-    "slug": "real-pax-belford-roxo-belford-roxo",
+    "slug": "real-pax-belford-roxo",
     "name": "Real Pax Belford Roxo",
     "city": "Belford Roxo",
     "uf": "RJ",
@@ -5320,7 +5320,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-belford-roxo-solidao-belford-roxo",
+    "slug": "cemiterio-de-belford-roxo-solidao",
     "name": "Cemitério de Belford Roxo (Solidão)",
     "city": "Belford Roxo",
     "uf": "RJ",
@@ -5376,7 +5376,7 @@
     ]
   },
   {
-    "slug": "santa-amelia-pax-assistencia-funeraria-belford-roxo",
+    "slug": "santa-amelia-pax-assistencia-funeraria",
     "name": "Santa Amélia Pax Assistência Funerária",
     "city": "Belford Roxo",
     "uf": "RJ",
@@ -5432,7 +5432,7 @@
     ]
   },
   {
-    "slug": "funeraria-unidos-pela-fe-belford-roxo",
+    "slug": "funeraria-unidos-pela-fe",
     "name": "Funerária Unidos Pela Fé",
     "city": "Belford Roxo",
     "uf": "RJ",
@@ -5488,7 +5488,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-vila-rosali-sao-joao-de-meriti",
+    "slug": "cemiterio-municipal-de-vila-rosali",
     "name": "Cemitério Municipal de Vila Rosali",
     "city": "São João de Meriti",
     "uf": "RJ",
@@ -5600,7 +5600,7 @@
     ]
   },
   {
-    "slug": "cemiterio-israelita-de-vila-rosali-sao-joao-de-meriti",
+    "slug": "cemiterio-israelita-de-vila-rosali",
     "name": "Cemitério Israelita de Vila Rosali",
     "city": "São João de Meriti",
     "uf": "RJ",
@@ -5656,7 +5656,7 @@
     ]
   },
   {
-    "slug": "riopae-sao-joao-de-meriti",
+    "slug": "riopae",
     "name": "RIOPAE",
     "city": "São João de Meriti",
     "uf": "RJ",
@@ -5768,7 +5768,7 @@
     ]
   },
   {
-    "slug": "crematorio-metropolitano-sao-joao-batista-sao-joao-de-meriti",
+    "slug": "crematorio-metropolitano-sao-joao-batista",
     "name": "Crematório Metropolitano São João Batista",
     "city": "São João de Meriti",
     "uf": "RJ",
@@ -5824,7 +5824,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-eden-sao-joao-de-meriti",
+    "slug": "cemiterio-de-eden",
     "name": "Cemitério de Éden",
     "city": "São João de Meriti",
     "uf": "RJ",
@@ -5880,7 +5880,7 @@
     ]
   },
   {
-    "slug": "funeraria-casa-de-luto-de-sao-joao-batista-sao-joao-de-meriti",
+    "slug": "funeraria-casa-de-luto-de-sao-joao-batista",
     "name": "Funerária Casa de Luto de São João Batista",
     "city": "São João de Meriti",
     "uf": "RJ",
@@ -5936,7 +5936,7 @@
     ]
   },
   {
-    "slug": "funeraria-oswaldo-cruz-petropolis",
+    "slug": "funeraria-oswaldo-cruz",
     "name": "Funerária Oswaldo Cruz",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -5992,7 +5992,7 @@
     ]
   },
   {
-    "slug": "funeraria-antonio-ligeiro-petropolis",
+    "slug": "funeraria-antonio-ligeiro",
     "name": "Funerária Antônio Ligeiro",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -6048,7 +6048,7 @@
     ]
   },
   {
-    "slug": "funeraria-envida-rio-petropolis",
+    "slug": "funeraria-envida-rio",
     "name": "Funerária Envida Rio",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -6104,7 +6104,7 @@
     ]
   },
   {
-    "slug": "funerarias-capixaba-petropolis",
+    "slug": "funerarias-capixaba",
     "name": "Funerárias Capixaba",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -6160,7 +6160,7 @@
     ]
   },
   {
-    "slug": "funeraria-osvaldo-cruz-petropolis",
+    "slug": "funeraria-osvaldo-cruz",
     "name": "Funerária Osvaldo Cruz",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -6216,7 +6216,7 @@
     ]
   },
   {
-    "slug": "funeraria-casa-mussel-petropolis",
+    "slug": "funeraria-casa-mussel",
     "name": "Funerária Casa Mussel",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -6272,7 +6272,7 @@
     ]
   },
   {
-    "slug": "plano-de-assistencia-funeral-ruy-ligeiro-petropolis",
+    "slug": "plano-de-assistencia-funeral-ruy-ligeiro",
     "name": "Plano de Assistência Funeral Ruy Ligeiro",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -6328,7 +6328,7 @@
     ]
   },
   {
-    "slug": "plano-de-assistencia-funeral-vital-ligeiro-petropolis",
+    "slug": "plano-de-assistencia-funeral-vital-ligeiro",
     "name": "Plano de Assistência Funeral Vital Ligeiro",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -6384,7 +6384,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-petropolis-petropolis",
+    "slug": "cemiterio-municipal-de-petropolis",
     "name": "Cemitério Municipal de Petrópolis",
     "city": "Petrópolis",
     "uf": "RJ",
@@ -6496,7 +6496,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-porto-das-caixas-itaborai",
+    "slug": "cemiterio-municipal-de-porto-das-caixas",
     "name": "Cemitério Municipal de Porto das Caixas.",
     "city": "Itaboraí",
     "uf": "RJ",
@@ -6552,7 +6552,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-itambi-itaborai",
+    "slug": "cemiterio-municipal-de-itambi",
     "name": "CEMITÉRIO MUNICIPAL DE ITAMBI",
     "city": "Itaboraí",
     "uf": "RJ",
@@ -6608,7 +6608,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-itapacora-itaborai",
+    "slug": "cemiterio-municipal-de-itapacora",
     "name": "Cemitério Municipal de Itapacorá",
     "city": "Itaboraí",
     "uf": "RJ",
@@ -6664,7 +6664,7 @@
     ]
   },
   {
-    "slug": "cemiterio-municipal-de-sambaetiba-itaborai",
+    "slug": "cemiterio-municipal-de-sambaetiba",
     "name": "Cemitério municipal de Sambaetiba",
     "city": "Itaboraí",
     "uf": "RJ",
@@ -6720,7 +6720,7 @@
     ]
   },
   {
-    "slug": "allianca-assistencial-itaborai",
+    "slug": "allianca-assistencial",
     "name": "Alliança Assistencial",
     "city": "Itaboraí",
     "uf": "RJ",
@@ -6776,7 +6776,7 @@
     ]
   },
   {
-    "slug": "funeraria-prefeitura-municipal-de-itaborai-itaborai",
+    "slug": "funeraria-prefeitura-municipal-de-itaborai",
     "name": "Funerária Prefeitura Municipal de Itaboraí",
     "city": "Itaboraí",
     "uf": "RJ",
@@ -6832,7 +6832,7 @@
     ]
   },
   {
-    "slug": "funeraria-jardim-das-oliveiras-itaborai",
+    "slug": "funeraria-jardim-das-oliveiras",
     "name": "FUNERÁRIA JARDIM DAS OLIVEIRAS",
     "city": "Itaboraí",
     "uf": "RJ",
@@ -6888,7 +6888,7 @@
     ]
   },
   {
-    "slug": "crematorio-oaf-itaborai",
+    "slug": "crematorio-oaf",
     "name": "Crematório OAF",
     "city": "Itaboraí",
     "uf": "RJ",
@@ -6944,7 +6944,7 @@
     ]
   },
   {
-    "slug": "cemiterio-nossa-senhora-da-piedade-unidade-i-mage",
+    "slug": "cemiterio-nossa-senhora-da-piedade-unidade-i",
     "name": "Cemitério Nossa Senhora da Piedade - Unidade I",
     "city": "Magé",
     "uf": "RJ",
@@ -7000,7 +7000,7 @@
     ]
   },
   {
-    "slug": "cemiterio-nossa-senhora-da-piedade-unidade-ii-mage",
+    "slug": "cemiterio-nossa-senhora-da-piedade-unidade-ii",
     "name": "Cemitério Nossa Senhora da Piedade - Unidade II",
     "city": "Magé",
     "uf": "RJ",
@@ -7056,7 +7056,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-raiz-da-serra-mage",
+    "slug": "cemiterio-de-raiz-da-serra",
     "name": "Cemitério De Raiz Da Serra",
     "city": "Magé",
     "uf": "RJ",
@@ -7112,7 +7112,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-santo-aleixo-mage",
+    "slug": "cemiterio-de-santo-aleixo",
     "name": "Cemitério de Santo Aleixo",
     "city": "Magé",
     "uf": "RJ",
@@ -7168,7 +7168,7 @@
     ]
   },
   {
-    "slug": "cemiterio-de-bongaba-mage",
+    "slug": "cemiterio-de-bongaba",
     "name": "Cemitério de Bongaba",
     "city": "Magé",
     "uf": "RJ",
@@ -7224,7 +7224,7 @@
     ]
   },
   {
-    "slug": "cemiterio-da-cidade-mage",
+    "slug": "cemiterio-da-cidade",
     "name": "Cemitério da Cidade",
     "city": "Magé",
     "uf": "RJ",
@@ -7280,7 +7280,7 @@
     ]
   },
   {
-    "slug": "safim-e-funeraria-brisa-mar-mage",
+    "slug": "safim-e-funeraria-brisa-mar",
     "name": "SAFIM E FUNERÁRIA BRISA MAR",
     "city": "Magé",
     "uf": "RJ",
@@ -7336,7 +7336,7 @@
     ]
   },
   {
-    "slug": "safem-servico-de-assistencia-familiar-ltda-mage",
+    "slug": "safem-servico-de-assistencia-familiar-ltda",
     "name": "Safem - Serviço de Assistência Familiar LTDA",
     "city": "Magé",
     "uf": "RJ",
@@ -7392,7 +7392,7 @@
     ]
   },
   {
-    "slug": "funeraria-nossa-senhora-da-piedade-mage",
+    "slug": "funeraria-nossa-senhora-da-piedade",
     "name": "Funerária Nossa Senhora da Piedade",
     "city": "Magé",
     "uf": "RJ",
@@ -7448,7 +7448,7 @@
     ]
   },
   {
-    "slug": "funeraria-guarani-mage",
+    "slug": "funeraria-guarani",
     "name": "Funerária Guarani",
     "city": "Magé",
     "uf": "RJ",
@@ -7499,6 +7499,174 @@
         "paragraphs": [
           "A Coroa de Flores Nobre garante a entrega pontual de coroas de flores na Funerária Guarani. Nossa equipe cuida de todos os detalhes logísticos para que sua homenagem esteja presente no momento da cerimônia.",
           "Por favor, note que não possuímos nenhum vínculo com o Funerária Guarani - Magé. Nosso serviço é independente e dedicado a entregar coroas de flores neste local para ajudá-lo a prestar sua última homenagem."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cemiterio-da-cacuia",
+    "name": "Cemitério da Cacuia",
+    "city": "Rio de Janeiro",
+    "uf": "RJ",
+    "title": "Coroa de Flores para Cemitério da Cacuia no Rio de Janeiro, RJ",
+    "introduction": "O Cemitério da Cacuia é um espaço funerário tradicional da Ilha do Governador, no Rio de Janeiro, acolhendo famílias da região em momentos de despedida com respeito e cuidado. A Coroa de Flores Nobre realiza entregas de coroas de flores no Cemitério da Cacuia com a dedicação e o zelo que cada homenagem merece, garantindo que sua última despedida seja marcada pela beleza e pelo carinho que o momento exige.",
+    "infoSections": [
+      {
+        "title": "Localização e como chegar",
+        "paragraphs": [
+          "O Cemitério da Cacuia está localizado no bairro da Cacuia, na Ilha do Governador, Rio de Janeiro. A região é acessível pela Avenida Brasil e pela Linha Vermelha, principais vias que conectam a ilha ao restante da cidade.",
+          "O acesso pode ser feito de carro pelas vias principais da Ilha do Governador ou por transporte público, com diversas linhas de ônibus que atendem o bairro. O local conta com área para estacionamento nas proximidades."
+        ]
+      },
+      {
+        "title": "Horário de funcionamento",
+        "paragraphs": [
+          "O Cemitério da Cacuia geralmente funciona todos os dias para visitação pública. Recomenda-se verificar os horários atualizados diretamente com a administração, pois podem ocorrer alterações em feriados e datas especiais.",
+          "O setor administrativo atende em horário comercial, de segunda a sexta-feira."
+        ]
+      },
+      {
+        "title": "História e relevância",
+        "paragraphs": [
+          "O Cemitério da Cacuia faz parte da história da Ilha do Governador, atendendo famílias da região há décadas. Tornou-se referência para os moradores que desejam manter próximas as memórias de seus entes queridos.",
+          "Com infraestrutura adequada e ambiente cuidado, o Cemitério da Cacuia oferece um espaço de tranquilidade para familiares que desejam visitar e homenagear seus entes queridos."
+        ]
+      }
+    ],
+    "tributeSections": [
+      {
+        "title": "Como escolher a coroa ideal",
+        "paragraphs": [
+          "Para homenagens no Cemitério da Cacuia, considere uma coroa que reflita o respeito e o carinho que você sente. Coroas tradicionais com lírios e rosas são opções clássicas e sempre bem aceitas.",
+          "A Coroa de Flores Nobre disponibiliza diversos modelos e tamanhos para atender às diferentes necessidades. Coroas empresariais, familiares e personalizadas estão entre as opções disponíveis."
+        ]
+      },
+      {
+        "title": "Flores mais utilizadas e seus significados",
+        "paragraphs": [
+          "Lírios: Flores que evocam pureza e paz, sendo amplamente utilizadas em arranjos fúnebres. Sua elegância natural complementa qualquer homenagem.",
+          "Rosas brancas: Simbolizam reverência e respeito, sendo a escolha mais clássica para coroas de flores em cerimônias de despedida.",
+          "Crisântemos: Tradicionais em homenagens póstumas, representam fidelidade e saudade. São flores resistentes que mantêm sua beleza por mais tempo.",
+          "Astromélias: Representam amizade e devoção, sendo uma opção delicada e significativa para demonstrar carinho."
+        ]
+      },
+      {
+        "title": "Entrega de flores no Cemitério da Cacuia",
+        "paragraphs": [
+          "A Coroa de Flores Nobre garante a entrega pontual de coroas de flores no Cemitério da Cacuia. Nossa equipe cuida de todos os detalhes logísticos para que sua homenagem esteja presente no momento da cerimônia.",
+          "Por favor, note que não possuímos nenhum vínculo com o Cemitério da Cacuia - Rio de Janeiro. Nosso serviço é independente e dedicado a entregar coroas de flores neste local para ajudá-lo a prestar sua última homenagem."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cemiterio-de-guaratiba",
+    "name": "Cemitério de Guaratiba",
+    "city": "Rio de Janeiro",
+    "uf": "RJ",
+    "title": "Coroa de Flores para Cemitério de Guaratiba no Rio de Janeiro, RJ",
+    "introduction": "O Cemitério de Guaratiba atende famílias da Zona Oeste do Rio de Janeiro com respeito e dignidade nos momentos de despedida. A Coroa de Flores Nobre realiza entregas de coroas de flores no Cemitério de Guaratiba com pontualidade e cuidado, contribuindo para que cada homenagem seja marcada pelo carinho e pela beleza das flores.",
+    "infoSections": [
+      {
+        "title": "Localização e como chegar",
+        "paragraphs": [
+          "O Cemitério de Guaratiba está localizado no bairro de Guaratiba, na Zona Oeste do Rio de Janeiro. A região é acessível pela Avenida das Américas e pela Estrada da Pedra, vias importantes que conectam o bairro a outras áreas da cidade.",
+          "O acesso pode ser feito de carro pelas principais rodovias da Zona Oeste ou por transporte público, com linhas de ônibus que atendem a região. Há opções de estacionamento nas imediações."
+        ]
+      },
+      {
+        "title": "Horário de funcionamento",
+        "paragraphs": [
+          "O Cemitério de Guaratiba geralmente funciona todos os dias para visitação pública. Recomenda-se verificar os horários atualizados diretamente com a administração, pois podem ocorrer alterações em feriados e datas especiais.",
+          "O setor administrativo atende em horário comercial, de segunda a sexta-feira."
+        ]
+      },
+      {
+        "title": "História e relevância",
+        "paragraphs": [
+          "O Cemitério de Guaratiba é parte da história da Zona Oeste do Rio de Janeiro, atendendo as comunidades locais há muitas décadas. É reconhecido pela população da região como um espaço de respeito e acolhimento.",
+          "Com infraestrutura adequada para visitação e cerimônias, o Cemitério de Guaratiba oferece um ambiente tranquilo para familiares que desejam homenagear seus entes queridos."
+        ]
+      }
+    ],
+    "tributeSections": [
+      {
+        "title": "Como escolher a coroa ideal",
+        "paragraphs": [
+          "Ao escolher uma coroa de flores para o Cemitério de Guaratiba, considere o grau de proximidade com o falecido e o tipo de cerimônia. Coroas pequenas e médias são adequadas para amigos e conhecidos, enquanto coroas maiores são indicadas para familiares próximos.",
+          "A Coroa de Flores Nobre oferece diferentes modelos, desde opções tradicionais até arranjos personalizados. Nosso catálogo permite escolher o modelo mais adequado para cada situação."
+        ]
+      },
+      {
+        "title": "Flores mais utilizadas e seus significados",
+        "paragraphs": [
+          "Lírios: Representam pureza e inocência, sendo uma das flores mais escolhidas para coroas fúnebres. Transmitem paz e serenidade ao ambiente.",
+          "Rosas: Simbolizam amor e respeito. As rosas brancas expressam reverência, enquanto as vermelhas representam amor profundo e saudade.",
+          "Gerberas: Transmitem alegria e gratidão pela vida compartilhada, sendo uma opção delicada para homenagens mais leves e coloridas.",
+          "Antúrios: Associados à paz e espiritualidade, acrescentam um toque de serenidade à homenagem com sua beleza tropical."
+        ]
+      },
+      {
+        "title": "Entrega de flores no Cemitério de Guaratiba",
+        "paragraphs": [
+          "A Coroa de Flores Nobre garante a entrega pontual de coroas de flores no Cemitério de Guaratiba. Nossa equipe conhece a região da Zona Oeste e cuida de todos os detalhes logísticos para que sua homenagem chegue no horário da cerimônia.",
+          "Por favor, note que não possuímos nenhum vínculo com o Cemitério de Guaratiba - Rio de Janeiro. Nosso serviço é independente e dedicado a entregar coroas de flores neste local para ajudá-lo a prestar sua última homenagem."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cemiterio-de-santa-cruz",
+    "name": "Cemitério de Santa Cruz",
+    "city": "Rio de Janeiro",
+    "uf": "RJ",
+    "title": "Coroa de Flores para Cemitério de Santa Cruz no Rio de Janeiro, RJ",
+    "introduction": "O Cemitério de Santa Cruz é um espaço funerário tradicional da Zona Oeste do Rio de Janeiro, acolhendo famílias da região em momentos de despedida com respeito e cuidado. A Coroa de Flores Nobre realiza entregas de coroas de flores no Cemitério de Santa Cruz com a pontualidade e o zelo que cada homenagem exige, garantindo que sua despedida seja marcada pela beleza das flores.",
+    "infoSections": [
+      {
+        "title": "Localização e como chegar",
+        "paragraphs": [
+          "O Cemitério de Santa Cruz está localizado no bairro de Santa Cruz, na Zona Oeste do Rio de Janeiro. A região é acessível pela Avenida Brasil e pela Avenida Padre Guilherme Decaminada, vias principais que conectam o bairro às demais áreas da cidade.",
+          "O acesso pode ser feito de carro pelas vias principais da Zona Oeste ou por transporte público, com diversas linhas de ônibus que atendem a região e a estação ferroviária de Santa Cruz nas proximidades."
+        ]
+      },
+      {
+        "title": "Horário de funcionamento",
+        "paragraphs": [
+          "O Cemitério de Santa Cruz geralmente funciona todos os dias para visitação pública. Recomenda-se verificar os horários atualizados diretamente com a administração, pois podem ocorrer alterações em feriados e datas especiais.",
+          "O setor administrativo atende em horário comercial, de segunda a sexta-feira."
+        ]
+      },
+      {
+        "title": "História e relevância",
+        "paragraphs": [
+          "O Cemitério de Santa Cruz é parte da história da Zona Oeste do Rio de Janeiro, sendo um espaço funerário reconhecido pela comunidade local. Ao longo dos anos, tornou-se referência para as famílias da região.",
+          "Com infraestrutura adequada e ambiente cuidado, o Cemitério de Santa Cruz oferece um espaço de tranquilidade para familiares que desejam visitar e homenagear seus entes queridos."
+        ]
+      }
+    ],
+    "tributeSections": [
+      {
+        "title": "Como escolher a coroa ideal",
+        "paragraphs": [
+          "Para homenagens no Cemitério de Santa Cruz, considere uma coroa que reflita o respeito e o carinho que você sente. Coroas tradicionais com lírios e rosas são opções clássicas e sempre bem recebidas.",
+          "A Coroa de Flores Nobre disponibiliza diversos modelos e tamanhos para atender às diferentes necessidades. Coroas empresariais, familiares e personalizadas estão entre as opções disponíveis."
+        ]
+      },
+      {
+        "title": "Flores mais utilizadas e seus significados",
+        "paragraphs": [
+          "Lírios: Flores que evocam pureza e paz, sendo amplamente utilizadas em arranjos fúnebres. Sua elegância natural complementa qualquer homenagem.",
+          "Rosas brancas: Simbolizam reverência e respeito, sendo a escolha mais clássica para coroas de flores em cerimônias de despedida.",
+          "Crisântemos: Tradicionais em homenagens póstumas, representam fidelidade e saudade. São flores resistentes que mantêm sua beleza por mais tempo.",
+          "Margaridas: Representam inocência, simplicidade e ternura, evocando memórias afetivas e momentos de serenidade."
+        ]
+      },
+      {
+        "title": "Entrega de flores no Cemitério de Santa Cruz",
+        "paragraphs": [
+          "A Coroa de Flores Nobre garante a entrega pontual de coroas de flores no Cemitério de Santa Cruz. Nossa equipe cuida de todos os detalhes logísticos para que sua homenagem esteja presente no momento da cerimônia.",
+          "Por favor, note que não possuímos nenhum vínculo com o Cemitério de Santa Cruz - Rio de Janeiro. Nosso serviço é independente e dedicado a entregar coroas de flores neste local para ajudá-lo a prestar sua última homenagem."
         ]
       }
     ]
